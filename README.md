@@ -1,4 +1,4 @@
-# Nome do projeto
+# FarmaCeltas
 
 `CURSO: Sistemas de Informação`
 
@@ -6,7 +6,9 @@
 
 `Xº semestre/ANO`
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+O objetivo do projeto FarmaEduca é proporcionar à população uma plataforma acessível e educativa que oferece informações claras, seguras e confiáveis sobre medicamentos e saúde, evitando conteúdos que exijam avaliação médica especializada. Por meio de vídeos explicativos e quizzes interativos, o sistema pretende conscientizar as pessoas sobre o uso correto de medicamentos e promover maior entendimento sobre questões farmacêuticas.
+
+A iniciativa busca reduzir os riscos associados à automedicação incorreta e contribuir para que as decisões relacionadas à saúde sejam feitas de maneira consciente, segura e bem informada, impactando positivamente tanto os usuários quanto a sociedade como um todo, se encaixando nas ODS 3 e 4.
 
 ## Integrantes
 
