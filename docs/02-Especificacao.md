@@ -40,19 +40,17 @@ Persona 3
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuários que são relevantes para o projeto da sua solução. As histórias de usuários consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuários por contexto, para facilitar consultas recorrentes a esta parte do documento.
-
-> **Links úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (user stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 common user story mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                    |
+|--------------------|------------------------------------|-----------------------------------------------------------|
+|Usuário do sistema  | Acessar vídeos educativos          | Obter rapidamente informações seguras sobre medicamentos. |
+|Usuário do sistema  | Realizar quizzes interativos       | Fixar e testar meu aprendizado.                           |   
+|Usuário do sistema  | Consultar materiais escritos       | Ter segurança na informação que estou acessando.          |   
+|                    | validados cientificamente          |                                                           |
+|Usuário do sistema  | Fazer perguntas sobre medicamentos | Esclarecer dúvidas pontuais sobre medicamentos.           |
+|                    | diretamente para o ChatGPT         |                                                           |
+|Administrador       | Gerenciar conteúdos educativos     | Garantir que os conteúdos sejam sempre atualizados e      |
+|                    | (vídeos e textos).                 | precisos.                                                 |      
+|---------------------------------------------------------------------------------------------------------------------|
 
 ## Requisitos
 
