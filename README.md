@@ -4,7 +4,7 @@
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações para Sustentabilidade`
 
-`Xº semestre/ANO`
+`01/2025`
 
 O objetivo do projeto FarmaCeltas é proporcionar à população uma plataforma acessível e educativa que oferece informações claras, seguras e confiáveis sobre medicamentos e saúde, evitando conteúdos que exijam avaliação médica especializada. Por meio de vídeos explicativos e quizzes interativos, o sistema pretende conscientizar as pessoas sobre o uso correto de medicamentos e promover maior entendimento sobre questões farmacêuticas.
 
