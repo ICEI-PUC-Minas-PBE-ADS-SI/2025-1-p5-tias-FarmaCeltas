@@ -42,7 +42,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 #### Sprint 1
 - Repositório no GitHub / Preenchimento do README / Preenchimento da Documentação de Contexto / Preenchimento da Especificação do Projeto / Preenchimento das Referências / Inserir a URL do repositório Git nos slides e nos comentários de envio da tarefa: Gabriel Assuncao Costa e Rafael Bernardoni Gomes
 - Planejamento do projeto: Marcelo Henrique Passini Ferreira
-- Preenchimento do relatório: Introdução e participantes do projeto: Marcelo Henrique Passini Ferreira
+- Preenchimento do relatório: Introdução e participantes do projeto: Gabriela Maria da Silva
   Slides e acompanhamento de projeto: Krycia Figueiredo Azevedo e Vinicius do Amaral Fonseca Filho
 
 #### Sprint 2
@@ -59,12 +59,14 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 Atualizado em: 21/04/2024
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/02/2024      |
-| AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
-| AlunoY        | Histórias de usuário  | 01/01/2024     | 07/01/2005 | ⌛     |                 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
+| Responsável                          | Tarefa/Requisito                     | Iniciado em    | Prazo      | Status   | Terminado em    |
+| :----                                |    :----                             |      :----:    | :----:     | :----:   | :----:          |
+| Gabriel Assuncao Costa               | Documentação do projeto              | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Gabriela Maria da Silva              | Preenche relatório para sistema APC  | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Krycia Figueiredo Azevedo            | Slides, requisitos e personas        | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Marcelo Henrique Passini Ferreira    | Planejamento do projeto              | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Rafael Bernardoni Gomes              | Documentação do projeto              | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Vinicius do Amaral Fonseca Filho     | Slides e acompanhamento do projeto   | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
 
 #### Sprint 2
 
