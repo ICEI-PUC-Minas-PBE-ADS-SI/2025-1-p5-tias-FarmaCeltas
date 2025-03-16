@@ -33,7 +33,7 @@ Assim, a criação de uma plataforma educativa torna-se relevante ao possibilita
 
 ## Público-alvo
 
-O público-alvo do projeto FarmaEduca é composto principalmente por indivíduos leigos interessados em aprender sobre o uso correto e seguro de medicamentos. Este grupo inclui adultos e jovens adultos que possuem dúvidas ou interesse em temas farmacêuticos gerais, porém não têm formação específica em saúde.
+O público-alvo do projeto FarmaCeltas é composto principalmente por indivíduos leigos interessados em aprender sobre o uso correto e seguro de medicamentos. Este grupo inclui adultos e jovens adultos que possuem dúvidas ou interesse em temas farmacêuticos gerais, porém não têm formação específica em saúde.
 
 Perfis comuns entre os usuários da aplicação são:
 
