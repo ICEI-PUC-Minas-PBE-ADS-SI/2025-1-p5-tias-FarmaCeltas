@@ -12,20 +12,29 @@ Para isso, serão apresentados:
    - Restrições: identificação dos limites e parâmetros que guiarão o desenvolvimento do projeto.
 
 ## Personas
+Persona 1
 
-Exemplo: _Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente por meio de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros._
+    Nome: Maria Clara
+    Idade: 35 anos
+    Profissão: Dona de Casa
+    Objetivo: Deseja obter informações seguras sobre medicamentos cotidianos para cuidar melhor da saúde da sua família, evitando automedicação indevida.
+    Necessidades: Conteúdos educativos claros, vídeos informativos acessíveis, quizzes para reforçar aprendizado.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Persona 2
 
-> **Links úteis**:
-> - [Rock content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+    Nome: André Luiz
+    Idade: 22 anos
+    Ocupação: Universitário
+    Descrição: André busca informações claras sobre medicamentos para tirar dúvidas rápidas antes de tomar decisões relacionadas à automedicação. Ele valoriza praticidade, agilidade e segurança.
+    Necessidades: Vídeos informativos, perguntas rápidas respondidas via ChatGPT, material com embasamento científico.
+
+Persona 3
+
+    Nome: Patrícia Fernandes
+    Idade: 36 anos
+    Profissão: Técnica em administração
+    Descrição: Responsável pelo cuidado com medicamentos da família, tem dúvidas frequentes sobre dosagens, interações e armazenamento adequado. Deseja fontes científicas acessíveis e confiáveis.
+    Necessidades: Material escrito com base científica, vídeos claros e informativos, quizzes rápidos e perguntas respondidas via ChatGPT.
 
 ## Histórias de usuários
 
