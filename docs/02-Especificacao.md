@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="01-Contexto.md"> Documentação de contexto</a></span>
 
-Esta seção do documento aborda as definições e especificações detalhadas do projeto FarmaEduca sob a perspectiva dos usuários. Utilizamos técnicas consolidadas de Design Thinking e User Stories, que permitiram compreender profundamente as necessidades dos usuários e garantir uma abordagem centrada nas suas expectativas.
+Esta seção do documento aborda as definições e especificações detalhadas do projeto FarmaCeltas sob a perspectiva dos usuários. Utilizamos técnicas consolidadas de Design Thinking e User Stories, que permitiram compreender profundamente as necessidades dos usuários e garantir uma abordagem centrada nas suas expectativas.
 
 Para isso, serão apresentados:
 
