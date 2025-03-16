@@ -40,15 +40,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 > Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
 
 #### Sprint 1
-- Repositório no GitHub:
-Preenchimento do README
-Preenchimento da Documentação de Contexto (item 1)
-Preenchimento da Especificação do Projeto (item 2)
-Preenchimento das Referências
-Inserir a URL do repositório Git nos slides e nos comentários de envio da tarefa: AlunaX
-- Protótipos: AlunoY
-- Testes: AlunoK
-- Documentação: AlunaZ
+- Repositório no GitHub / Preenchimento do README / Preenchimento da Documentação de Contexto / Preenchimento da Especificação do Projeto / Preenchimento das Referências / Inserir a URL do repositório Git nos slides e nos comentários de envio da tarefa: Gabriel Assuncao Costa e Rafael Bernardoni Gomes
+- Planejamento do projeto: Marcelo Henrique Passini Ferreira
+- Preenchimento do relatório: Introdução e participantes do projeto: Marcelo Henrique Passini Ferreira
+  Slides e acompanhamento de projeto: Krycia Figueiredo Azevedo e Vinicius do Amaral Fonseca Filho
 
 #### Sprint 2
 - _Scrum master_: AlunaY
