@@ -40,16 +40,14 @@ Persona 3
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                    |
-|--------------------|------------------------------------|-----------------------------------------------------------|
-|Usuário do sistema  | Acessar vídeos educativos          | Obter rapidamente informações seguras sobre medicamentos. |
-|Usuário do sistema  | Realizar quizzes interativos       | Fixar e testar meu aprendizado.                           |   
-|Usuário do sistema  | Consultar materiais escritos validados cientificamente       | Ter segurança na informação que estou acessando.          |   
-                                                                                            |
-|Usuário do sistema  | Fazer perguntas sobre medicamentos | Esclarecer dúvidas pontuais sobre medicamentos.           |
-                        diretamente para o ChatGPT                                                                  
-|Administrador       | Gerenciar conteúdos educativos     | Garantir que os conteúdos sejam sempre atualizados e      |
-|                    | (vídeos e textos).                 | precisos.                                                 |      
+| EU COMO... (`PERSONA`) | QUERO/PRECISO... (`FUNCIONALIDADE`)                               | PARA... (`MOTIVO/VALOR`)                                 |
+|------------------------|-------------------------------------------------------------------|----------------------------------------------------------|
+| Usuário do sistema     | Acessar vídeos educativos                                         | Obter informações claras sobre medicamentos.             |
+| Usuário do sistema     | Realizar quizzes interativos                                      | Testar e reforçar meu aprendizado.                       |
+| Usuário do sistema     | Consultar materiais escritos validados cientificamente            | Ter segurança nas informações que estou acessando.       |
+| Usuário do sistema     | Fazer perguntas sobre medicamentos diretamente para o ChatGPT     | Esclarecer dúvidas pontuais sobre medicamentos.          |
+| Administrador          | Gerenciar (adicionar, editar e remover) quizzes e materiais educativos | Manter o sistema atualizado com conteúdos relevantes. |
+
 
 ## Requisitos
 
