@@ -47,10 +47,9 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 |Usuário do sistema  | Consultar materiais escritos       | Ter segurança na informação que estou acessando.          |   
 |                    | validados cientificamente          |                                                           |
 |Usuário do sistema  | Fazer perguntas sobre medicamentos | Esclarecer dúvidas pontuais sobre medicamentos.           |
-|                    | diretamente para o ChatGPT         |                                                           |
+                        diretamente para o ChatGPT                                                                  
 |Administrador       | Gerenciar conteúdos educativos     | Garantir que os conteúdos sejam sempre atualizados e      |
 |                    | (vídeos e textos).                 | precisos.                                                 |      
-|---------------------------------------------------------------------------------------------------------------------|
 
 ## Requisitos
 
