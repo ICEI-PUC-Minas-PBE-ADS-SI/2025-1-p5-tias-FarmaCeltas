@@ -46,25 +46,25 @@ Exemplos de Personas
 
 Persona 1:
 
-   -Nome: Mariana Souza
-   -Idade: 32 anos
-   -Profissão: Secretária
-   -Necessidades: Deseja informações práticas e rápidas para orientar sua família no uso cotidiano de medicamentos, evitando erros comuns.
+   - Nome: Mariana Souza
+   - Idade: 32 anos
+   - Profissão: Secretária
+   - Necessidades: Deseja informações práticas e rápidas para orientar sua família no uso cotidiano de medicamentos, evitando erros comuns.
 
 Persona 2:
 
-   -Nome: Carlos Henrique
-   -Idade: 24 anos
-   -Ocupação: Universitário
-   -Descrição: Curioso e preocupado com sua saúde, mas sem conhecimento técnico sobre medicamentos. Quer informações acessíveis para melhorar suas decisões sobre automedicação.
+   - Nome: Carlos Henrique
+   - Idade: 24 anos
+   - Ocupação: Universitário
+   - Descrição: Curioso e preocupado com sua saúde, mas sem conhecimento técnico sobre medicamentos. Quer informações acessíveis para melhorar suas decisões sobre automedicação.
 
 Exemplo de Stakeholders do Projeto
 
-   -Farmácia parceira (cliente): fornece validação e orientação técnica sobre conteúdos científicos.
-   -Usuários finais: população geral interessada em educação farmacêutica.
-   -Desenvolvedores do sistema: responsáveis pelo desenvolvimento técnico da aplicação.
-   -Profissionais de saúde (Farmacêuticos): Responsáveis pela curadoria e validação técnica do conteúdo apresentado.
-   -Instituições de ensino e saúde locais: potenciais parceiros na divulgação e ampliação do alcance do projeto.
+   - Drogaria alterosas: fornece validação e orientação técnica sobre conteúdos científicos.
+   - Usuários finais: população geral interessada em educação farmacêutica.
+   - Desenvolvedores do sistema: responsáveis pelo desenvolvimento técnico da aplicação.
+   - Profissionais de saúde (Farmacêuticos): Responsáveis pela curadoria e validação técnica do conteúdo apresentado.
+   - Instituições de ensino e saúde locais: potenciais parceiros na divulgação e ampliação do alcance do projeto.
 
 # Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
