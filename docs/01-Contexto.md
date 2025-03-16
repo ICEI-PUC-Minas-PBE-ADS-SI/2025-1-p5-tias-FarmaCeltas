@@ -16,13 +16,12 @@ Nesse contexto, a aplicação proposta busca solucionar esse desafio por meio de
 
 ## Objetivos
 
-O objetivo geral do projeto é desenvolver um software educativo que resolva o problema da falta de informação confiável sobre medicamentos, proporcionando à população acesso facilitado a conteúdos validados cientificamente, promovendo conscientização e educação em saúde. Para isso, a aplicação irá integrar diferentes recursos didáticos, como vídeos educativos, quizzes interativos, materiais escritos com embasamento científico, além de um canal interativo de perguntas e respostas utilizando o ChatGPT adaptado especificamente para esclarecer dúvidas relacionadas ao tema farmacêutico. Dessa forma, o sistema busca capacitar os usuários a tomarem decisões seguras e bem informadas em relação à sua saúde, reforçando o aprendizado por meio de ferramentas interativas e informações confiáveis sobre medicamentos.
+O objetivo geral do projeto é desenvolver um software educativo que minimize o problema da falta de informação confiável sobre medicamentos, proporcionando à população acesso facilitado a conteúdos validados cientificamente, promovendo conscientização e educação em saúde. Para isso, a aplicação irá integrar diferentes recursos didáticos, como vídeos educativos, quizzes interativos, materiais escritos com embasamento científico, além de um canal interativo de perguntas e respostas utilizando o ChatGPT adaptado especificamente para esclarecer dúvidas relacionadas ao tema farmacêutico. Dessa forma, o sistema busca capacitar os usuários a tomarem decisões seguras e bem informadas em relação à sua saúde, reforçando o aprendizado por meio de ferramentas interativas e informações confiáveis sobre medicamentos.
 
 Os objetivos específicos, se tratam das seguintes pontualidades:
 - Disponibilizar vídeos educativos selecionados, através da integração com a API do YouTube ou por meio da incorporação direta no sistema, oferecendo à população informações validadas sobre medicamentos e saúde.
 - Desenvolver quizzes interativos que possibilitem aos usuários testar e reforçar seu conhecimento sobre os conteúdos disponibilizados, promovendo um aprendizado prático e eficaz.
 - Oferecer um canal de perguntas integrado ao ChatGPT, especializado em responder dúvidas gerais relacionadas ao uso seguro e correto de medicamentos, fornecendo respostas rápidas e confiáveis.
-
 - Disponibilizar materiais escritos com base científica, com o objetivo de garantir precisão, clareza e segurança nas informações fornecidas aos usuários.
 
 ## Justificativa
@@ -33,11 +32,12 @@ Assim, a criação de uma plataforma educativa torna-se relevante ao possibilita
 
 ## Público-alvo
 
-O público-alvo do projeto FarmaCeltas é composto principalmente por indivíduos leigos interessados em aprender sobre o uso correto e seguro de medicamentos. Este grupo inclui adultos e jovens adultos que possuem dúvidas ou interesse em temas farmacêuticos gerais, porém não têm formação específica em saúde.
+O público-alvo do projeto FarmaCeltas é composto pela população geral, principalmente indivíduos leigos interessados em aprender sobre o uso correto e seguro de medicamentos. Este grupo inclui idosos, adultos e jovens adultos que possuem dúvidas ou interesse em temas farmacêuticos gerais, porém não têm formação específica em saúde.
 
 Perfis comuns entre os usuários da aplicação são:
 
 -Pessoas que possuem dúvidas frequentes sobre o uso correto de medicamentos e recorrem a fontes não qualificadas.
+-Idosos que fazem uso constante de vários medicamentos e querem maiores informações sobre eles.
 -Jovens adultos que buscam informações rápidas e confiáveis, especialmente aqueles familiarizados com a tecnologia.
 -Adultos responsáveis pelo cuidado familiar, que buscam informações claras para garantir a segurança e saúde familiar.
 
@@ -57,6 +57,14 @@ Persona 2:
    - Idade: 24 anos
    - Ocupação: Universitário
    - Descrição: Curioso e preocupado com sua saúde, mas sem conhecimento técnico sobre medicamentos. Quer informações acessíveis para melhorar suas decisões sobre automedicação.
+
+Persona 3:
+
+   - Nome: José Antônio
+   - Idade: 70 anos
+   - Ocupação: Aposentado
+   - Descrição: Toma vários medicamentos diariamente para diversas condições. Tem dificuldade de achar informações sobre efeitos colateriais caso esqueça o horário de algum medicamento.
+
 
 Exemplo de Stakeholders do Projeto
 
