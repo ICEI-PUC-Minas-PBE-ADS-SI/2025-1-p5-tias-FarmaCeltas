@@ -95,3 +95,48 @@ O projeto está restrito aos itens apresentados na tabela a seguir.
 ## Diagrama de casos de uso
 
 ![image](https://github.com/user-attachments/assets/89ba92ba-534d-4450-b3d8-7f5f68eec08c)
+
+## Atores Principais
+
+### Usuário
+É o público geral que acessa a plataforma para aprender sobre medicamentos e saúde básica. Pode ser qualquer pessoa da comunidade, clientes da drogaria ou profissionais da área que buscam atualização.
+
+### Administrador
+Responsável por manter e organizar o conteúdo da plataforma, incluindo quizzes, vídeos, materiais e o funcionamento da integração com o ChatGPT.
+
+### ChatGPT Integrado
+Ferramenta de inteligência artificial integrada à plataforma, que processa dúvidas e fornece respostas com base em fontes científicas confiáveis.
+
+## Casos de Uso
+
+### Consulta de Dúvidas sobre Medicamento
+O usuário pode fazer perguntas sobre medicamentos e receber respostas informativas.
+
+- Inclui:
+      Histórico de Perguntas e Respostas: o usuário pode revisar perguntas feitas anteriormente, o que ajuda a fixar aprendizados e evitar repetições.
+
+### Realização de Quizzes Interativos
+O usuário participa de quizzes para testar seus conhecimentos e aprender de forma lúdica.
+
+- Inclui:
+      Acesso a Materiais Específicos: após responder aos quizzes, o usuário pode acessar conteúdos complementares.
+- Inclui:
+     Acesso a Vídeos Educativos: vídeos ajudam na assimilação de temas de forma mais visual e acessível.
+
+### Cadastro e Login
+Funcionalidade essencial para personalizar a experiência e registrar o progresso do usuário.
+
+- Inclui:
+Monitoramento do Progresso nos Quizzes: permite ao usuário acompanhar sua evolução ao longo do tempo.
+
+### Gerenciar o envio e recebimento de perguntas no ChatGPT 
+O administrador revisa, organiza e envia perguntas feitas pelos usuários ao ChatGPT, podendo ainda filtrar ou moderar os conteúdos.
+
+### Gerenciamento de Quizzes e Materiais 
+Aqui, o administrador cadastra, atualiza e organiza quizzes, vídeos e materiais educativos dentro da plataforma.
+
+### Processar e responder dúvidas com base em fontes científicas 
+O sistema de IA responde às dúvidas dos usuários com base em fontes confiáveis, garantindo a segurança e a qualidade da informação compartilhada.
+
+
+
