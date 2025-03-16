@@ -73,8 +73,6 @@ Exemplo de Stakeholders do Projeto
    - Profissionais de saúde (Farmacêuticos): Responsáveis pela curadoria e validação técnica do conteúdo apresentado.
    - Instituições de ensino e saúde locais: potenciais parceiros na divulgação e ampliação do alcance do projeto.
 
-# Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
 ## Mapa de Stakeholders
 
 ![Mapa de Stakeholders](images/mapa_stakeholder.jpg)
