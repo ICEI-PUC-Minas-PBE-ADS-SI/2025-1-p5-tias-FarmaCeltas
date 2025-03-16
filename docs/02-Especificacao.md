@@ -69,25 +69,28 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 ### Requisitos não Funcionais
 | RNF   | Requisitos Não Funcionais                                                                                         |
 | ----- | ------------------------------------------------------------------------------------------------------------------ |
-| RNF 01| A aplicação será desenvolvida com HTML 5, CSS e Javascript e C#                                                    |
-| RNF 02| O projeot deve seguir a Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018.                        |
+| RNF 01| A aplicação será desenvolvida com HTML 5, CSS e Javascript e C#.                                                   |
+| RNF 02| O projeto deve seguir a Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018.                        |
 | RNF 03| A aplicação fará uso do idioma oficial do Brasil, PT-BR.                                                           |
 | RNF 04| A disponibilidade da aplicação será de 24x7.                                                                       |
 | RNF 05| O tempo de resposta da aplicação não deverá exceder 1 segundo.                                                     |
 | RNF 06| Será utilizado o GitHub como plataforma de gerencimaneto do desenvolvimento.                                       |
 | RNF 07| Deverá ser um sistema responsivo para se ajustar a qualquer dispositivo.                                           |
-| RNF 08| Deve dar suporte a aparelhos Android e iOS                                                                         |
+| RNF 08| Deve dar suporte a aparelhos Android e iOS.                                                                        |
 
 ## Restrições
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
 O projeto está restrito aos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|001| O projeto deverá ser entregue até o final do semestre |
-|002| O custo total do projeto não deve exceder o orçamento definido       |
+| ID     | Descrição da Restrição                                                                    |
+|--------|-------------------------------------------------------------------------------------------|
+| RST-001 | O sistema não deve promover marcas ou produtos farmacêuticos específicos.                |
+| RST-002 | Não substituirá a orientação médica ou farmacêutica profissional.                        |
+| RST-003 | Deve garantir que todas as informações disponibilizadas sejam validadas cientificamente. |
+| RST-004 | O site não terá funcionalidades de comércio eletrônico ou venda de medicamentos.         |
+| RST-005 | O sistema deverá operar em conformidade com a Lei Geral de Proteção de Dados (LGPD).     |
+| RST-006 | Apenas administradores poderão adicionar ou editar conteúdos educativos e quizzes.       |
+| RST-007 | Não será permitido conteúdo gerado por usuários que não passe por validação prévia.      |
 
 ## Diagrama de casos de uso
 
