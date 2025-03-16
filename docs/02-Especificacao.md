@@ -2,9 +2,14 @@
 
 <span style="color:red">Pré-requisitos: <a href="01-Contexto.md"> Documentação de contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Esta seção do documento aborda as definições e especificações detalhadas do projeto FarmaEduca sob a perspectiva dos usuários. Utilizamos técnicas consolidadas de Design Thinking e User Stories, que permitiram compreender profundamente as necessidades dos usuários e garantir uma abordagem centrada nas suas expectativas.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
+Para isso, serão apresentados:
+
+   - Diagrama e detalhamento das Personas: visando compreender perfis de usuários típicos.
+   - Histórias de Usuários: representação clara dos objetivos dos usuários ao utilizar o sistema.
+   - Requisitos Funcionais e Não Funcionais: especificação objetiva das funcionalidades essenciais e atributos técnicos desejáveis.
+   - Restrições: identificação dos limites e parâmetros que guiarão o desenvolvimento do projeto.
 
 ## Personas
 
