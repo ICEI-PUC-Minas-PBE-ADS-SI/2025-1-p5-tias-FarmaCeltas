@@ -31,7 +31,7 @@ O projeto FarmaCeltas surge diante da necessidade crescente de fornecer à popul
 
 Assim, a criação de uma plataforma educativa torna-se relevante ao possibilitar o acesso democratizado a conteúdos cientificamente validados, por meio de vídeos informativos disponibilizados, quizzes interativos, materiais escritos de referência científica e respostas automáticas via ChatGPT especializado em medicamentos. O projeto visa empoderar cidadãos comuns para que possam tomar decisões conscientes relacionadas à saúde e ao uso seguro de medicamentos, reduzindo riscos para a saúde individual e trazendo impacto positivo à saúde coletiva.
 
-Público-alvo
+## Público-alvo
 
 O público-alvo do projeto FarmaEduca é composto principalmente por indivíduos leigos interessados em aprender sobre o uso correto e seguro de medicamentos. Este grupo inclui adultos e jovens adultos que possuem dúvidas ou interesse em temas farmacêuticos gerais, porém não têm formação específica em saúde.
 
