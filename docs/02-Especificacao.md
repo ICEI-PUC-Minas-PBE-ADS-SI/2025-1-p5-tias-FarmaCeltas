@@ -74,7 +74,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RNF 03| A aplicação fará uso do idioma oficial do Brasil, PT-BR.                                                           |
 | RNF 04| A disponibilidade da aplicação será de 24x7.                                                                       |
 | RNF 05| O tempo de resposta da aplicação não deverá exceder 1 segundo.                                                     |
-| RNF 06| Será utilizado o GitHub como plataforma de gerencimaneto do desenvolvimento.                                       |
+| RNF 06| Será utilizado o GitHub como plataforma de gerenciamento do desenvolvimento.                                       |
 | RNF 07| Deverá ser um sistema responsivo para se ajustar a qualquer dispositivo.                                           |
 | RNF 08| Deve dar suporte a aparelhos Android e iOS.                                                                        |
 
