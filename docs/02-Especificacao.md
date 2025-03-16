@@ -44,8 +44,8 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 |--------------------|------------------------------------|-----------------------------------------------------------|
 |Usuário do sistema  | Acessar vídeos educativos          | Obter rapidamente informações seguras sobre medicamentos. |
 |Usuário do sistema  | Realizar quizzes interativos       | Fixar e testar meu aprendizado.                           |   
-|Usuário do sistema  | Consultar materiais escritos       | Ter segurança na informação que estou acessando.          |   
-|                    | validados cientificamente          |                                                           |
+|Usuário do sistema  | Consultar materiais escritos validados cientificamente       | Ter segurança na informação que estou acessando.          |   
+                                                                                            |
 |Usuário do sistema  | Fazer perguntas sobre medicamentos | Esclarecer dúvidas pontuais sobre medicamentos.           |
                         diretamente para o ChatGPT                                                                  
 |Administrador       | Gerenciar conteúdos educativos     | Garantir que os conteúdos sejam sempre atualizados e      |
