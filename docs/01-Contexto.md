@@ -1,48 +1,72 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto. Visando contextualizar melhor o projeto e destacar sua importância para a disciplina, que é **extensionista**, acrescente todas as informações relevantes que julgar necessárias.
+O projeto FarmaCeltas tem o objetivo de educar e conscientizar a população sobre o uso seguro e correto de medicamentos, por meio de conteúdos científicos acessíveis e interativos. Observa-se atualmente uma crescente dificuldade das pessoas em encontrar informações confiáveis sobre saúde e medicamentos, levando muitas delas à automedicação ou ao uso incorreto desses produtos. Diante desse cenário, o projeto busca fornecer conteúdo educativo claro e validado cientificamente, utilizando recursos como vídeos informativos, quizzes interativos, material escrito com embasamento científico e um sistema de perguntas respondidas com auxílio do ChatGPT para esclarecer dúvidas pontuais dos usuários.
+
+Com caráter extensionista, o objetivo principal do projeto é educar, orientar e conscientizar o público-alvo sobre práticas seguras relacionadas à área farmacêutica, contribuindo para que as pessoas tomem decisões mais informadas, seguras e conscientes sobre sua saúde. O projeto visa impactar positivamente a sociedade por meio do acesso democrático ao conhecimento qualificado na área farmacêutica e da saúde pública.
 
 ## Cliente 
-Nesta seção, devem ser apresentadas informações essenciais sobre o cliente (parceiro) para garantir um entendimento mais preciso do projeto como uma iniciativa extensionista.  
+O cliente do projeto é uma farmácia parceira localizada na região de Betim - MG, chamada: (A DEFINIR), que está engajada na promoção da saúde e educação farmacêutica da comunidade local. Com atuação direta na venda de medicamentos e produtos relacionados à saúde, a farmácia tem como missão oferecer soluções confiáveis para cuidados da saúde da população, priorizando qualidade, ética e compromisso com o bem-estar dos clientes.
 
-Recomenda-se incluir dados como missão, visão e valores da organização, além de seu ramo de atuação, porte, nicho de mercado e principais desafios enfrentados. Também é relevante fornecer informações sobre sua localização, histórico, impacto social e possíveis demandas específicas. Quanto mais detalhadas forem essas informações, mais embasada será a análise do contexto, permitindo uma abordagem estratégica e alinhada às necessidades do cliente.
+Sua visão é tornar-se reconhecida não apenas pela comercialização de medicamentos, mas também como um agente ativo na educação da população sobre saúde preventiva e uso consciente de medicamentos. Atuando em um mercado altamente competitivo, a farmácia busca agregar valor social ao seu negócio, oferecendo informações educativas de qualidade que possam impactar positivamente a vida dos seus clientes e da sociedade como um todo.
 
 ## Problema
-Aqui, a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.
+O problema identificado é a falta de conhecimento adequado da população sobre medicamentos e temas farmacêuticos em geral, levando frequentemente ao uso incorreto, automedicação indevida e riscos à saúde. Muitas pessoas recorrem a informações de fontes não confiáveis, como redes sociais ou indicações não especializadas, devido à dificuldade de acesso a conteúdos claros, confiáveis e embasados cientificamente.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-O grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite uma visão completa do problema.
-
-> **Links úteis**:
-> - [Objetivos, problema de pesquisa e justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz certezas, suposições e dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Nesse contexto, a aplicação proposta busca solucionar esse desafio por meio de um ambiente digital educativo, oferecendo vídeos explicativos, quizzes interativos, materiais escritos com base científica e respostas rápidas a perguntas frequentes utilizando a integração com o ChatGPT. Dessa forma, o projeto visa proporcionar conhecimento seguro e acessível sobre o uso correto de medicamentos, estimulando uma maior conscientização e decisões mais seguras em saúde, sem substituir a orientação médica especializada.
 
 ## Objetivos
 
-Aqui, você deve descrever os objetivos do trabalho, indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima.
+O objetivo geral do projeto é desenvolver um software educativo que resolva o problema da falta de informação confiável sobre medicamentos, proporcionando à população acesso facilitado a conteúdos validados cientificamente, promovendo conscientização e educação em saúde. Para isso, a aplicação irá integrar diferentes recursos didáticos, como vídeos educativos, quizzes interativos, materiais escritos com embasamento científico, além de um canal interativo de perguntas e respostas utilizando o ChatGPT adaptado especificamente para esclarecer dúvidas relacionadas ao tema farmacêutico. Dessa forma, o sistema busca capacitar os usuários a tomarem decisões seguras e bem informadas em relação à sua saúde, reforçando o aprendizado por meio de ferramentas interativas e informações confiáveis sobre medicamentos.
 
-Além disso, apresente alguns (pelo menos 3) objetivos específicos, dependendo de onde você pretende concentrar sua prática investigativa ou como deseja aprofundar seu trabalho.
- 
-> **Links úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Os objetivos específicos, se tratam das seguintes pontualidades:
+- Disponibilizar vídeos educativos selecionados, através da integração com a API do YouTube ou por meio da incorporação direta no sistema, oferecendo à população informações validadas sobre medicamentos e saúde.
+- Desenvolver quizzes interativos que possibilitem aos usuários testar e reforçar seu conhecimento sobre os conteúdos disponibilizados, promovendo um aprendizado prático e eficaz.
+- Oferecer um canal de perguntas integrado ao ChatGPT, especializado em responder dúvidas gerais relacionadas ao uso seguro e correto de medicamentos, fornecendo respostas rápidas e confiáveis.
+
+- Disponibilizar materiais escritos com base científica, com o objetivo de garantir precisão, clareza e segurança nas informações fornecidas aos usuários.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O projeto FarmaCeltas surge diante da necessidade crescente de fornecer à população informações seguras e validadas sobre medicamentos, considerando os riscos associados à automedicação indevida, que atualmente representam um sério problema de saúde pública. Muitas pessoas buscam esclarecimento sobre medicamentos em fontes não confiáveis ou insuficientemente embasadas, levando frequentemente ao uso inadequado e a riscos que poderiam ser evitados com o devido conhecimento.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Assim, a criação de uma plataforma educativa torna-se relevante ao possibilitar o acesso democratizado a conteúdos cientificamente validados, por meio de vídeos informativos disponibilizados, quizzes interativos, materiais escritos de referência científica e respostas automáticas via ChatGPT especializado em medicamentos. O projeto visa empoderar cidadãos comuns para que possam tomar decisões conscientes relacionadas à saúde e ao uso seguro de medicamentos, reduzindo riscos para a saúde individual e trazendo impacto positivo à saúde coletiva.
 
-> **Links úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Público-alvo
 
-## Público-alvo
+O público-alvo do projeto FarmaEduca é composto principalmente por indivíduos leigos interessados em aprender sobre o uso correto e seguro de medicamentos. Este grupo inclui adultos e jovens adultos que possuem dúvidas ou interesse em temas farmacêuticos gerais, porém não têm formação específica em saúde.
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Perfis comuns entre os usuários da aplicação são:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+-Pessoas que possuem dúvidas frequentes sobre o uso correto de medicamentos e recorrem a fontes não qualificadas.
+-Jovens adultos que buscam informações rápidas e confiáveis, especialmente aqueles familiarizados com a tecnologia.
+-Adultos responsáveis pelo cuidado familiar, que buscam informações claras para garantir a segurança e saúde familiar.
+
+Ao compreender esses perfis, a aplicação será projetada com uma interface intuitiva, linguagem clara e conteúdos acessíveis para atender às expectativas deste público, oferecendo ferramentas educativas para o esclarecimento de dúvidas e promovendo a conscientização sobre a importância de buscar informações qualificadas sobre saúde.
+Exemplos de Personas
+
+Persona 1:
+
+   -Nome: Mariana Souza
+   -Idade: 32 anos
+   -Profissão: Secretária
+   -Necessidades: Deseja informações práticas e rápidas para orientar sua família no uso cotidiano de medicamentos, evitando erros comuns.
+
+Persona 2:
+
+   -Nome: Carlos Henrique
+   -Idade: 24 anos
+   -Ocupação: Universitário
+   -Descrição: Curioso e preocupado com sua saúde, mas sem conhecimento técnico sobre medicamentos. Quer informações acessíveis para melhorar suas decisões sobre automedicação.
+
+Exemplo de Stakeholders do Projeto
+
+   -Farmácia parceira (cliente): fornece validação e orientação técnica sobre conteúdos científicos.
+   -Usuários finais: população geral interessada em educação farmacêutica.
+   -Desenvolvedores do sistema: responsáveis pelo desenvolvimento técnico da aplicação.
+   -Profissionais de saúde (Farmacêuticos): Responsáveis pela curadoria e validação técnica do conteúdo apresentado.
+   -Instituições de ensino e saúde locais: potenciais parceiros na divulgação e ampliação do alcance do projeto.
+
+# Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
 > **Links úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
