@@ -57,7 +57,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 | ID     | Descrição do Requisito                                                        | Prioridade |
 |--------|-------------------------------------------------------------------------------|------------|
-| RF-001 | Disponibilizar vídeos educativos via integração com API do YouTube             | ALTA       |
+| RF-001 | Disponibilizar vídeos educativos           | ALTA       |
 | RF-002 | Disponibilizar quizzes interativos para testar o aprendizado dos usuários      | ALTA       |
 | RF-003 | Disponibilizar materiais escritos validados cientificamente                    | ALTA       |
 | RF-004 | Permitir que o usuário faça perguntas respondidas pelo ChatGPT                 | ALTA       |
