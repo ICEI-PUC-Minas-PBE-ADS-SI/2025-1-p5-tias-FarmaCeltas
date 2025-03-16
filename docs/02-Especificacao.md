@@ -57,12 +57,14 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 | ID     | Descrição do Requisito                                                        | Prioridade |
 |--------|-------------------------------------------------------------------------------|------------|
-| RF-001 | Disponibilizar vídeos educativos           | ALTA       |
-| RF-002 | Disponibilizar quizzes interativos para testar o aprendizado dos usuários      | ALTA       |
-| RF-003 | Disponibilizar materiais escritos validados cientificamente                    | ALTA       |
-| RF-004 | Permitir que o usuário faça perguntas respondidas pelo ChatGPT                 | ALTA       |
-| RF-005 | Permitir que administradores gerenciem quizzes e materiais educativos          | MÉDIA      |
-| RF-006 | Armazenar e apresentar progresso individual dos usuários nos quizzes  
+| RF-001 | Permitir cadastro de usuários           | ALTA       |
+| RF-002 | Permitir sistema de login           | ALTA       |
+| RF-003 | Disponibilizar vídeos educativos           | ALTA       |
+| RF-004 | Disponibilizar quizzes interativos para testar o aprendizado dos usuários      | ALTA       |
+| RF-005 | Disponibilizar materiais escritos validados cientificamente                    | ALTA       |
+| RF-006 | Permitir que o usuário faça perguntas respondidas pelo ChatGPT                 | ALTA       |
+| RF-007 | Permitir que administradores gerenciem quizzes e materiais educativos          | ALTA       |
+| RF-008 | Armazenar e apresentar progresso individual dos usuários nos quizzes           | BAIXA      |
 
 ### Requisitos não funcionais
 
