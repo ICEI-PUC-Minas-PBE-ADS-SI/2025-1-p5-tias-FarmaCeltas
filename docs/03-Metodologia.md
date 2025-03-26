@@ -70,14 +70,16 @@ Atualizado em: 16/03/2025
 
 #### Sprint 2
 
-Atualizado em: 21/04/2024
+Atualizado em: 26/03/2025
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Página inicial   | 01/02/2024     | 07/03/2024 | ✔️    | 05/02/2024      |
-| AlunaZ        | CSS unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+| Responsável                          | Tarefa/Requisito                                        | Iniciado em    | Prazo      | Status   | Terminado em    |
+| :----                                |    :----                                                |      :----:    | :----:     | :----:   | :----:          |
+| Gabriel Assuncao Costa               | Documentação do projeto                                 | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Gabriela Maria da Silva              | Preenche relatório para sistema APC  e modelagem as-is  | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Krycia Figueiredo Azevedo            | Slides, requisitos e personas                           | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Marcelo Henrique Passini Ferreira    | Planejamento do projeto e modelagem as-is               | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Rafael Bernardoni Gomes              | Documentação do projeto                                 | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Vinicius do Amaral Fonseca Filho     | Slides e acompanhamento do projeto                      | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
 
 
 Legenda:
