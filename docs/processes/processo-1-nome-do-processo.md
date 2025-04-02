@@ -2,9 +2,12 @@
 
 _Apresenta o controle de temperatura na farmácia com foco em oportunidades de melhoria para reduzir o uso de papel, minimizar erros manuais e melhorar a organização dos registros.  
 Na versão atual (AS-IS), o processo é realizado por meio de formulário impresso, com riscos de retrabalho e dificuldades na armazenagem e correções.  
+
+![Processo A-IS](../images/Controle%20de%20temperatura%20AS%20IS%20Diagrama.png "PROCESSO AS-IS")
+
 Na proposta (TO-BE), o registro passa a ser digital, utilizando, uma planilha do Excel por exemplo, permitindo correções imediatas, assinatura digital pelos farmacêuticos e armazenamento seguro e sustentável dos registros._
 
-![Exemplo de um Modelo BPMN do Processo 1](../images/Controle%20de%20temperatura%20AS%20IS%20Diagrama.png "Modelo BPMN do Processo 1")
+![Processo TO-BE](../images/Controle%20de%20temperatura%20TO%20BE%20Diagrama.png "PROCESSO TO-BE")
 
 
 #### Detalhamento das atividades
