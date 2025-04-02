@@ -1,8 +1,8 @@
-### 3.3.1 Processo 1 – Controle de Temperatura Farmacêutica
+### 3.3.1 Processo 1 – Controle de Temperatura da farmácia
 
 _Apresenta o controle de temperatura na farmácia com foco em oportunidades de melhoria para reduzir o uso de papel, minimizar erros manuais e melhorar a organização dos registros.  
 Na versão atual (AS-IS), o processo é realizado por meio de formulário impresso, com riscos de retrabalho e dificuldades na armazenagem e correções.  
-Na proposta (TO-BE), o registro passa a ser digital – utilizando, por exemplo, uma planilha como no Excel –, permitindo correções imediatas, assinatura digital pelos farmacêuticos e armazenamento seguro e sustentável dos registros._
+Na proposta (TO-BE), o registro passa a ser digital, utilizando, uma planilha do Excel por exemplo, permitindo correções imediatas, assinatura digital pelos farmacêuticos e armazenamento seguro e sustentável dos registros._
 
 ![Exemplo de um Modelo BPMN do Processo 1](../images/process.png "Modelo BPMN do Processo 1.")
 
