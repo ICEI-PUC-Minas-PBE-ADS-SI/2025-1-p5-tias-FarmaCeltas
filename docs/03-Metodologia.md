@@ -3,8 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para abordar o problema. Inclua definições sobre os ambientes de trabalho utilizados pela equipe para desenvolver o projeto. Isso abrange a relação dos ambientes utilizados, a estrutura para a gestão do código-fonte, além da definição do processo e das ferramentas por meio dos quais a equipe se organiza (gestão de equipes).
-
+Nesta seção, descrevemos a metodologia adotada pelo grupo para abordar e resolver o problema identificado no projeto FarmaCeltas. São detalhadas informações referentes ao ambiente de desenvolvimento, controle de versão, ferramentas empregadas e o processo ágil adotado para gestão e acompanhamento das tarefas, utilizando a metodologia Scrum.
 
 ## Controle de versão
 
@@ -15,7 +14,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `main`: versão estável já testada do software
 - `unstable`: versão já testada do software, porém instável
 - `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `develop`: versão de desenvolvimento do software
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 
@@ -26,12 +25,10 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gestão de tags, merges, commits e branches é realizada. Discuta também como a gestão de issues foi feita.
 
-> **Links úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e GitHub](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+- Commits realizados frequentemente com mensagens claras e descritivas.
+- Merges realizados sempre entre branches intermediárias (develop → testing → unstable → main) após validação.
+- Uso sistemático de Pull Requests para revisão colaborativa antes do merge final para a branch main.
+- Gestão de issues feita diretamente no GitHub, utilizando labels para melhor organização.
 
 ## Planejamento do projeto
 
@@ -46,10 +43,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
   Slides e acompanhamento de projeto: Krycia Figueiredo Azevedo e Vinicius do Amaral Fonseca Filho
 
 #### Sprint 2
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+- _Scrum master_: Marcelo Henrique Passini Ferreira
+- Desenvolvedor _front-end_: Vinicius do Amaral Fonseca Filho
+- Desenvolvedor _back-end_: Gabriel Assuncao Costa
+- Testes: Krycia Figueiredo Azevedo
 
 ###  Quadro de tarefas
 
@@ -76,7 +73,7 @@ Atualizado em: 26/03/2025
 | :----                                |    :----                                                |      :----:    | :----:     | :----:   | :----:          |
 | Gabriel Assuncao Costa               | Documentação do projeto                                 | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
 | Gabriela Maria da Silva              | Preenche relatório para sistema APC  e modelagem as-is  | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
-| Krycia Figueiredo Azevedo            | Slides, requisitos e personas                           | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Krycia Figueiredo Azevedo            | Documentação do Projeto                                 | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
 | Marcelo Henrique Passini Ferreira    | Planejamento do projeto e modelagem as-is               | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
 | Rafael Bernardoni Gomes              | Documentação do projeto                                 | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
 | Vinicius do Amaral Fonseca Filho     | Slides e acompanhamento do projeto                      | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
@@ -88,22 +85,20 @@ Legenda:
 - ⌛: atrasado
 - ❌: não iniciado
 
-
-> **Links úteis**:
-> - [11 passos essenciais para implantar Scrum no seu projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
-
 ### Processo
+O grupo adotou a metodologia ágil Scrum, utilizando quadros do GitHub Projects para acompanhar as tarefas, facilitando a visualização dos requisitos priorizados, divisão das atividades e andamento das entregas.
 
-Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links úteis**:
-> - [Planejamento e gestão ágil de projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Como criar backlogs no GitHub](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial slack](https://slack.com/intl/en-br/)
+    Reuniões semanais foram estabelecidas para acompanhamento do desenvolvimento e ajustes das prioridades.
+
+    Cada Sprint durou aproximadamente três semanas, com objetivos e tarefas previamente definidas.
+
+    O quadro de projeto no GitHub foi dividido em:
+
+        To do (A Fazer)
+
+        In progress (Em Andamento)
+
+        Done (Concluído)
 
 
 ## Relação de ambientes de trabalho
@@ -112,15 +107,24 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. Tod
 
 ### Ferramentas
 
-Liste todas as ferramentas que foram empregadas no projeto, justificando a escolha delas, sempre que possível.
-
-Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+A realização do projeto foi dada pelo uso das seguintes ferramentas:
 
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de interface                | Figma                              | http://....                            |
-| Gerenciamento do projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | Vercel                             | http://....                            |
+| Repositório de código fonte         | GitHub                             | [http://.... ](https://github.com)     |
+| Documentos do projeto               | GitHub                             | [http://.... ](https://github.com)     |
+| Projeto de interface                | Figma                              | [http://.... ](https://www.figma.com/) |
+| Gerenciamento do projeto            | GitHub Projects                    | [http://.... ](https://github.com)     |
+| Hospedagem                          | Vercel                             | [http://.... ](https://vercel.com/)    |
+
+Justificativas para as ferramentas adotadas:
+
+    GitHub:
+    Utilizado por ser amplamente aceito, fácil colaboração, controle de versão eficaz e integração nativa com gerenciamento de tarefas (issues e projetos).
+
+    Figma:
+    Escolhido pela facilidade na criação colaborativa de protótipos intuitivos, interativos e acessíveis, garantindo melhor compreensão do usuário.
+
+    Vercel:
+    Selecionado pela rapidez, simplicidade na hospedagem gratuita e integração nativa com GitHub, ideal para aplicações educacionais e ágeis.
  
