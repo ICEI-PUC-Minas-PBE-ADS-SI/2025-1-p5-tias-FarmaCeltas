@@ -1,24 +1,30 @@
 # Modelagem dos processos de negócio
 
-<span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>
-
-> **Links úteis**:
-> - [Modelagem de processos AS-IS x TO-BE](https://dheka.com.br/modelagem-as-is-to-be/)
-> - [20 dicas práticas de modelagem de processos](https://dheka.com.br/20-dicas-praticas-de-modelagem-de-processos/)
+Nesta seção são descritos os processos atuais (AS-IS) e os processos propostos (TO-BE) relacionados ao projeto FarmaCeltas. Foram identificados processos atuais que envolvem dificuldades e gargalos, e sugeridas melhorias através da aplicação tecnológica proposta, trazendo maior eficiência ao contexto.
 
 ## Modelagem da situação atual (Modelagem AS IS)
 
-Apresente uma descrição textual de como os sistemas atuais resolvem o problema que seu projeto se propõe a resolver. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional.
+No cenário atual, a farmácia parceira enfrenta problemas operacionais em um processo simples, porém crítico: o controle diário da temperatura ambiente para atender às exigências fiscais e garantir a validade dos medicamentos. Esse processo é realizado manualmente pelos funcionários, que preenchem formulários impressos com caneta, onde rasuras não são permitidas. Caso um erro ocorra ao registrar a temperatura, é necessário descartar todo o formulário preenchido e reiniciar o processo, o que gera desperdício significativo de tempo e material.
 
-Com o tema do projeto definido, escolham alguns processos no contexto de negócios. Para ilustrar os potenciais ganhos com a automatização, imaginem processos manuais, ineficientes e/ou com muitas idas e vindas, gerando, assim, retrabalho. Colem aqui os modelos dos processos atuais (modelo AS-IS), elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
+Além da clara ineficiência operacional, há um alto uso desnecessário de papel, criando desafios logísticos para armazenamento seguro dessas informações ao longo dos anos. Esse método também expõe os documentos ao risco de deterioração ou perda, podendo gerar complicações futuras em auditorias e fiscalizações.
 
 ## Descrição geral da proposta (Modelagem TO BE)
 
-Tendo identificado os gargalos dos modelos AS-IS, apresentem uma descrição da proposta de solução, buscando maior eficiência com a introdução da tecnologia. Abordem também os limites dessa solução e seu alinhamento com as estratégias e objetivos do contexto de negócio escolhido.
+Nossa proposta para melhorar esse processo consiste na substituição dos formulários físicos por uma solução digital simples, utilizando ferramentas como Excel ou softwares similares. Dessa forma, o funcionário poderá registrar diariamente as temperaturas diretamente em formato digital, permitindo correções rápidas e sem necessidade de descartar registros anteriores devido a erros.
 
-Cole aqui os modelos da solução proposta (modelo TO-BE), elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina. Cada processo identificado deve ter seu modelo TO-BE específico. Descrevam as oportunidades de melhoria de cada processo da solução proposta.
+Além disso, o farmacêutico responsável poderá validar os registros digitalmente, utilizando assinaturas eletrônicas, e armazená-los em PDF, facilitando significativamente o envio e apresentação dos documentos em auditorias ou fiscalizações.
 
-Apresente aqui uma descrição da sua proposta, abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente também as oportunidades de melhoria.
+Essa abordagem digital soluciona os principais gargalos atuais:
+
+    Redução do desperdício de papel (contribuição direta para sustentabilidade).
+
+    Facilidade nas correções e manutenção dos dados.
+
+    Melhoria logística (facilidade no armazenamento e organização).
+
+    Redução dos riscos relacionados à perda ou deterioração de documentos físicos.
+
+Com isso, o processo torna-se mais eficiente, organizado, seguro e sustentável, alinhado diretamente às estratégias da farmácia parceira e às exigências fiscais vigentes.
 
 ## Modelagem dos processos
 
