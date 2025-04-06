@@ -1,7 +1,7 @@
 ### 3.3.2 Processo 2 – Entregas 
  
 Na versão atual, ao receber um pedido, a farmácia verifica a disponibilidade do produto no estoque local. Quando não há disponibilidade, é feita uma solicitação à filial. Nesse cenário, o entregador precisa ir até a filial buscar o produto e, em seguida, passar na farmácia apenas para retirar o pedido impresso antes de realizar a entrega ao cliente. Esse fluxo gera deslocamentos desnecessários, atraso na entrega.
-![Exemplo de um Modelo BPMN do PROCESSO 2](../images/process.png "Modelo BPMN do Processo 2.")
+![Exemplo de um Modelo BPMN do PROCESSO 2](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-FarmaCeltas/blob/main/docs/images/Entregas%20%20AS%20IS%20Diagrama.png?raw=true)
 
 
 #### Detalhamento das atividades
