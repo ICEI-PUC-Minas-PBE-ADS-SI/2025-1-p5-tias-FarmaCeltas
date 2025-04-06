@@ -46,7 +46,7 @@ A configuração e o padrão do projeto foi dado pelas seguintes convenções:
 - _Scrum master_: Marcelo Henrique Passini Ferreira
 - Desenvolvedor _front-end_: Vinicius do Amaral Fonseca Filho
 - Desenvolvedor _back-end_: Gabriel Assuncao Costa
-- Testes: Krycia Figueiredo Azevedo
+- Testes: Krycia Figueiredo Azevedo e Rafael Bernardoni Gomes
 
 ###  Quadro de tarefas
 
@@ -67,16 +67,16 @@ Atualizado em: 16/03/2025
 
 #### Sprint 2
 
-Atualizado em: 26/03/2025
+Atualizado em: 05/04/2025
 
 | Responsável                          | Tarefa/Requisito                                        | Iniciado em    | Prazo      | Status   | Terminado em    |
 | :----                                |    :----                                                |      :----:    | :----:     | :----:   | :----:          |
-| Gabriel Assuncao Costa               | Documentação do projeto                                 | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
-| Gabriela Maria da Silva              | Preenche relatório para sistema APC  e modelagem as-is  | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
-| Krycia Figueiredo Azevedo            | Documentação do Projeto                                 | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
-| Marcelo Henrique Passini Ferreira    | Planejamento do projeto e modelagem as-is               | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
-| Rafael Bernardoni Gomes              | Documentação do projeto                                 | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
-| Vinicius do Amaral Fonseca Filho     | Slides e acompanhamento do projeto                      | 01/03/2025     | 16/03/2025 | ✔️       |16/03/2025      |
+| Gabriel Assuncao Costa               | Documentação do projeto                                 | 25/03/2025     | 06/04/2025 | ✔️       |05/04/2025      |
+| Gabriela Maria da Silva              | Preencher relatório para sistema APC  e modelagem as-is | 25/03/2025     | 06/04/2025 | ✔️       |05/04/2025      |
+| Krycia Figueiredo Azevedo            | Preenchimento e entrega parcial do relatório            | 25/03/2025     | 06/04/2025 | ✔️       |05/04/2025      |
+| Marcelo Henrique Passini Ferreira    | Planejamento do projeto e modelagem as-is               | 25/03/2025     | 06/04/2025 | ✔️       |31/03/2025      |
+| Rafael Bernardoni Gomes              | Documentação do projeto                                 | 25/03/2025     | 06/04/2025 | ✔️       |06/04/2025      |
+| Vinicius do Amaral Fonseca Filho     | Slides e acompanhamento do projeto                      | 25/03/2025     | 06/04/2025 | ✔️       |05/04/2025      |
 
 
 Legenda:
