@@ -27,7 +27,7 @@ O farmacêutico responsável poderá validar os registros digitalmente por meio 
 
 Assim, o processo torna-se eficiente, sustentável e alinhado diretamente às estratégias da farmácia parceira.
 
-- [Detalhamento Completo - Processo 1](./processes/processo-1-nome-do-processo.md)
+- [Detalhamento Completo - Processo 1](./processes/Processo-1-Controle-de-temperatura-da-farmacia.md)
 
 ---
 
