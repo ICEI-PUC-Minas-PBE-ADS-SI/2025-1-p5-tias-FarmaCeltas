@@ -10,50 +10,25 @@ Na proposta de melhoria, o processo é reestruturado para permitir que, nos caso
 
 #### Detalhamento das atividades
 
-_Descreva aqui cada uma das propriedades das atividades do processo 2. 
-Devem estar relacionadas com o modelo de processo apresentado anteriormente._
 
-_Os tipos de dados a serem utilizados são:_
+**Receber Pedido**
+Descrição: Nesta atividade, o atendente registra o pedido solicitado pelo cliente.
 
-_* **Área de texto** - campo texto de múltiplas linhas_
+Versão COMO ESTÁ (AS-IS): O pedido é sempre impresso na farmácia, independentemente de onde o produto será retirado.
+Versão A SER (TO-BE): O sistema identifica se o produto está apenas na filial. Nesses casos, o pedido é impresso diretamente na filial, otimizando o processo logístico.
 
-_* **Caixa de texto** - campo texto de uma linha_
-
-_* **Número** - campo numérico_
-
-_* **Data** - campo do tipo data (dd-mm-aaaa)_
-
-_* **Hora** - campo do tipo hora (hh:mm:ss)_
-
-_* **Data e Hora** - campo do tipo data e hora (dd-mm-aaaa, hh:mm:ss)_
-
-_* **Imagem** - campo contendo uma imagem_
-
-_* **Seleção única** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
-
-_* **Seleção múltipla** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
-
-_* **Arquivo** - campo de upload de documento_
-
-_* **Link** - campo que armazena uma URL_
-
-_* **Tabela** - campo formado por uma matriz de valores_
-
-**Nome da atividade 1**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+| nome_cleinte    | Caixa de texto   | Obrigatório    |                   |
+| código_produto  | Caixa de texto   |  Obrigatório   |                   |
+| quantidade      | Número           | Maior que 0    |                   |
+| origem_pedido   |Seleção única     |Farmácia / Filial|    	Farmácia     |
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+| registrar            | 	Atividade 2 – Conferir Estoque| Padrão            |
+
 
 
 **Nome da atividade 2**
