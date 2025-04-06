@@ -1,8 +1,6 @@
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+### 3.3.2 Processo 2 – Entregas 
  
-_Apresente aqui o nome e as oportunidades de melhoria para o processo 2. 
-Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN._
-
+Na versão atual, ao receber um pedido, a farmácia verifica a disponibilidade do produto no estoque local. Quando não há disponibilidade, é feita uma solicitação à filial. Nesse cenário, o entregador precisa ir até a filial buscar o produto e, em seguida, passar na farmácia apenas para retirar o pedido impresso antes de realizar a entrega ao cliente. Esse fluxo gera deslocamentos desnecessários, atraso na entrega.
 ![Exemplo de um Modelo BPMN do PROCESSO 2](../images/process.png "Modelo BPMN do Processo 2.")
 
 
