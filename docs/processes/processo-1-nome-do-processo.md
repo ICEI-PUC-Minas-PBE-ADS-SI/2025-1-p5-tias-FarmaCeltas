@@ -1,18 +1,18 @@
 ### 3.3.1 Processo 1 – Controle de Temperatura da farmácia
 
-_Apresenta o controle de temperatura na farmácia com foco em oportunidades de melhoria para reduzir o uso de papel, minimizar erros manuais e melhorar a organização dos registros.  
+Apresenta o controle de temperatura na farmácia com foco em oportunidades de melhoria para reduzir o uso de papel, minimizar erros manuais e melhorar a organização dos registros.  
 Na versão atual (AS-IS), o processo é realizado por meio de formulário impresso, com riscos de retrabalho e dificuldades na armazenagem e correções.  
 
 ![Processo A-IS](../images/Controle%20de%20temperatura%20AS%20IS%20Diagrama.png "PROCESSO AS-IS")
 
-Na proposta (TO-BE), o registro passa a ser digital, utilizando, uma planilha do Excel por exemplo, permitindo correções imediatas, assinatura digital pelos farmacêuticos e armazenamento seguro e sustentável dos registros._
+Na proposta (TO-BE), o registro passa a ser digital, utilizando, uma planilha do Excel por exemplo, permitindo correções imediatas, assinatura digital pelos farmacêuticos e armazenamento seguro e sustentável dos registros.
 
 ![Processo TO-BE](../images/Controle%20de%20temperatura%20TO%20BE%20Diagrama.png "PROCESSO TO-BE")
 
 
 #### Detalhamento das atividades
 
-_Esta seção descreve, de forma detalhada, as propriedades das atividades relacionadas ao controle de temperatura, conforme os modelos AS-IS e TO-BE apresentados anteriormente._
+Esta seção descreve, de forma detalhada, as propriedades das atividades relacionadas ao controle de temperatura, conforme os modelos AS-IS e TO-BE apresentados anteriormente._
 
 Os tipos de dados a serem utilizados são:
 
@@ -33,9 +33,9 @@ Os tipos de dados a serem utilizados são:
 
 **Atividade 1: Registro da Temperatura**
 
-_Descrição: Nesta atividade, o funcionário efetua o registro da temperatura na farmácia.  
+Descrição: Nesta atividade, o funcionário efetua o registro da temperatura na farmácia.  
 - **Versão AS-IS:** O funcionário imprime a folha de controle, verifica a temperatura, preenche o formulário à mão, e, em caso de erro, precisa refazer o registro.  
-- **Versão TO-BE:** O funcionário utiliza um arquivo do Excel ou similar para registrar a temperatura diretamente de forma digital, permitindo correção imediata sem a necessidade de reimpressão e facilitando backups._
+- **Versão TO-BE:** O funcionário utiliza um arquivo do Excel ou similar para registrar a temperatura diretamente de forma digital, permitindo correção imediata sem a necessidade de reimpressão e facilitando backups.
 
 | **Campo**           | **Tipo**         | **Restrições**                                  | **Valor default** |
 |---------------------|------------------|-------------------------------------------------|-------------------|
@@ -52,9 +52,9 @@ _Descrição: Nesta atividade, o funcionário efetua o registro da temperatura n
 
 **Atividade 2: Aprovação e Assinatura Digital**
 
-_Descrição: Esta etapa envolve o farmacêutico, que revê as informações registradas e, se estiverem corretas, realiza a assinatura digital.  
+Descrição: Esta etapa envolve o farmacêutico, que revê as informações registradas e, se estiverem corretas, realiza a assinatura digital.  
 - **Versão AS-IS:** O farmacêutico assina manualmente o formulário impresso e o envia para o setor fiscal, o que pode envolver retrabalho se houver erros.  
-- **Versão TO-BE:** A assinatura digital é feita no próprio arquivo (por exemplo, por meio de um PDF ou sistema integrado), permitindo um processo mais ágil e seguro, além de facilitar o arquivamento e controle para fins fiscais._
+- **Versão TO-BE:** A assinatura digital é feita no próprio arquivo (por exemplo, por meio de um PDF ou sistema integrado), permitindo um processo mais ágil e seguro, além de facilitar o arquivamento e controle para fins fiscais.
 
 | **Campo**          | **Tipo**         | **Restrições**                                          | **Valor default**    |
 |--------------------|------------------|---------------------------------------------------------|----------------------|
@@ -68,7 +68,7 @@ _Descrição: Esta etapa envolve o farmacêutico, que revê as informações reg
 
 ---
 
-_Observações:_  
+Observações:
 - **Sustentabilidade:** A transição do uso de papel para o digital contribui para práticas ambientais responsáveis.  
 - **Melhoria na Organização:** O armazenamento digital com backup reduz riscos administrativos e facilita a recuperação das informações quando necessário.  
 - **Correção e Eficiência:** O processo digital permite correções dinâmicas sem a necessidade de reimprimir formulários, aumentando a eficiência operacional.
