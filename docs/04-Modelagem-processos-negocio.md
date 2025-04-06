@@ -48,7 +48,7 @@ A proposta consiste em reestruturar esse processo permitindo que, nos casos onde
 - Diminuição do consumo de papel devido à redução das impressões duplicadas;
 - Melhor organização operacional entre a farmácia e filial.
 
-- [Detalhamento Completo - Processo 2](./processes/[Farmaceltas] Sprint 2 - Processo 2:: Entregas.md)
+- [Detalhamento Completo - Processo 2](./processes/Processo-2-Entregas.md)
 
 ---
 
