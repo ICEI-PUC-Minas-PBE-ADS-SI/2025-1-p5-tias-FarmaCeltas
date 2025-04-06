@@ -5,7 +5,7 @@ Na versão atual, ao receber um pedido, a farmácia verifica a disponibilidade d
 
 Na proposta de melhoria, o processo é reestruturado para permitir que, nos casos em que o produto está disponível somente na filial, o pedido também seja impresso diretamente na filial. Com isso, o entregador faz um único deslocamento até a filial, retirando tanto o produto quanto o pedido no mesmo local, e segue diretamente para a entrega. 
 
-
+![Exemplo de um Modelo BPMN do PROCESSO 2]([https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-FarmaCeltas/blob/main/docs/images/Entregas%20%20AS%20IS%20Diagrama.png?raw=true])
 
 
 #### Detalhamento das atividades
