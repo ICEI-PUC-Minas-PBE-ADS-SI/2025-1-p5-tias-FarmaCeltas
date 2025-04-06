@@ -129,6 +129,14 @@ Versão A SER: Entregador vai direto até onde tudo está pronto, economizando t
 | buscar       | Entregar ao cliente | padrão   |
 
 
+### Observações
+
+- **Sustentabilidade:** A possibilidade de imprimir o pedido diretamente na filial elimina a necessidade de impressões duplicadas, reduz o uso de papel e o consumo de gasolina, já que o entregador não precisa mais se deslocar até dois locais diferentes.
+  
+- **Melhoria na Organização:** A variação da impressão permite maior autonomia operacional, reduzindo o acúmulo de tarefas na farmácia e organizando melhor o fluxo logístico entre unidades.
+
+- **Correção e Eficiência:** A nova estrutura evita deslocamentos desnecessários do entregador, reduzindo o tempo total da entrega e aumentando a eficiência do processo.
+
 
 
 
