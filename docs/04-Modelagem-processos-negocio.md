@@ -1,49 +1,68 @@
-# Modelagem dos processos de negócio
+# Modelagem dos Processos de Negócio
 
-Nesta seção são descritos os processos atuais (AS-IS) e os processos propostos (TO-BE) relacionados ao projeto FarmaCeltas. Foram identificados processos atuais que envolvem dificuldades e gargalos, e sugeridas melhorias através da aplicação tecnológica proposta, trazendo maior eficiência ao contexto.
+Nesta seção são descritos os processos atuais (**AS-IS**) e os processos propostos (**TO-BE**) relacionados ao projeto **FarmaCeltas**. Foram identificados gargalos e dificuldades nos processos atuais, sendo propostas melhorias significativas através da aplicação de soluções tecnológicas, visando trazer eficiência operacional, sustentabilidade e organização.
 
-## Modelagem da situação atual (Modelagem AS IS)
+---
 
-No cenário atual, a farmácia parceira enfrenta problemas operacionais em um processo simples, porém crítico: o controle diário da temperatura ambiente para atender às exigências fiscais e garantir a validade dos medicamentos. Esse processo é realizado manualmente pelos funcionários, que preenchem formulários impressos com caneta, onde rasuras não são permitidas. Caso um erro ocorra ao registrar a temperatura, é necessário descartar todo o formulário preenchido e reiniciar o processo, o que gera desperdício significativo de tempo e material.
+## Processo 1 – Controle Diário de Temperatura
 
-Além da clara ineficiência operacional, há um alto uso desnecessário de papel, criando desafios logísticos para armazenamento seguro dessas informações ao longo dos anos. Esse método também expõe os documentos ao risco de deterioração ou perda, podendo gerar complicações futuras em auditorias e fiscalizações.
+### Situação Atual (AS-IS)
 
-## Descrição geral da proposta (Modelagem TO BE)
+No cenário atual, a farmácia enfrenta dificuldades operacionais no controle diário da temperatura ambiente, procedimento obrigatório para atender às exigências fiscais e garantir a validade dos medicamentos. Esse controle é realizado manualmente, onde os funcionários preenchem formulários impressos com caneta, sem possibilidade de rasuras. Caso ocorra um erro ao registrar a temperatura, todo o formulário precisa ser descartado e preenchido novamente, gerando desperdício significativo de tempo e material.
 
-Nossa proposta para melhorar esse processo consiste na substituição dos formulários físicos por uma solução digital simples, utilizando ferramentas como Excel ou softwares similares. Dessa forma, o funcionário poderá registrar diariamente as temperaturas diretamente em formato digital, permitindo correções rápidas e sem necessidade de descartar registros anteriores devido a erros.
+Além disso, há alto uso desnecessário de papel e dificuldades logísticas no armazenamento seguro das informações impressas, expondo os documentos a riscos de perda ou deterioração, podendo gerar problemas futuros em auditorias e fiscalizações.
 
-Além disso, o farmacêutico responsável poderá validar os registros digitalmente, utilizando assinaturas eletrônicas, e armazená-los em PDF, facilitando significativamente o envio e apresentação dos documentos em auditorias ou fiscalizações.
+### Proposta de Solução (TO-BE)
 
-Essa abordagem digital soluciona os principais gargalos atuais:
+A proposta para otimizar este processo consiste na substituição dos formulários físicos por uma solução digital, utilizando ferramentas como Excel ou aplicativos semelhantes. Dessa forma, os funcionários podem realizar o registro diário das temperaturas digitalmente, permitindo correções rápidas sem a necessidade de descartar registros anteriores devido a erros.
 
-    Redução do desperdício de papel (contribuição direta para sustentabilidade).
+O farmacêutico responsável poderá validar os registros digitalmente por meio de assinaturas eletrônicas e armazená-los em formato PDF, facilitando significativamente a organização e apresentação dos documentos em auditorias e fiscalizações.
 
-    Facilidade nas correções e manutenção dos dados.
+**Benefícios esperados:**
 
-    Melhoria logística (facilidade no armazenamento e organização).
+- Redução do desperdício de papel, contribuindo com a sustentabilidade;
+- Maior agilidade nas correções e manutenção das informações;
+- Melhoria logística devido à facilidade no armazenamento e organização;
+- Diminuição dos riscos associados à perda ou deterioração de documentos físicos.
 
-    Redução dos riscos relacionados à perda ou deterioração de documentos físicos.
+Assim, o processo torna-se eficiente, sustentável e alinhado diretamente às estratégias da farmácia parceira.
 
-Com isso, o processo torna-se mais eficiente, organizado, seguro e sustentável, alinhado diretamente às estratégias da farmácia parceira e às exigências fiscais vigentes.
+- [Detalhamento Completo - Processo 1](./processes/processo-1-nome-do-processo.md)
 
-## Modelagem dos processos
+---
 
-[PROCESSO 1 - Controle de Temperatura](./processes/processo-1-nome-do-processo.md "Detalhamento do processo 1.")
+## Processo 2 – Entrega de Produtos
 
-[PROCESSO 2 - Entregas de Produtos](./processes/processo-2-nome-do-processo.md "Detalhamento do processo 2.")
+### Situação Atual (AS-IS)
 
+Atualmente, quando um pedido é feito pelo cliente, a farmácia verifica manualmente se há disponibilidade do produto no estoque local. Caso não esteja disponível, uma solicitação é feita à filial. Nesse cenário, o entregador precisa se deslocar primeiro até a filial para buscar o produto e depois passar novamente na farmácia apenas para retirar o pedido impresso antes de realizar a entrega ao cliente. Esse fluxo operacional resulta em deslocamentos desnecessários e atrasos nas entregas.
 
-## Indicadores de desempenho
+### Proposta de Solução (TO-BE)
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Coloque no mínimo 5 indicadores.
+A proposta consiste em reestruturar esse processo permitindo que, nos casos onde o produto esteja disponível somente na filial, o pedido seja impresso diretamente no local. Com essa mudança, o entregador realiza um único deslocamento até a filial, onde retira simultaneamente o produto e o pedido impresso, seguindo diretamente para a entrega ao cliente.
 
-Use o seguinte modelo:
+**Benefícios esperados:**
 
-| **Indicador** | **Objetivos** | **Descrição** | **Fonte de dados** | **Fórmula de cálculo** |
-| ---           | ---           | ---           | ---             | ---             |
-| Percentual de reclamações | Avaliar quantitativamente as reclamações | Percentual de reclamações em relação ao total de atendimentos | Tabela Reclamações | número total de reclamações / número total de atendimentos |
-| Taxa de requisições atendidas | Melhorar a prestação de serviços medindo a porcentagem de requisições atendidas| Mede a % de requisições atendidas na semana | Tabela Solicitações | (número de requisições atendidas / número total de requisições) * 100 |
-| Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues | Mede % de material entregue dentro do mês | Tabela Pedidos | (número de pedidos entregues / número total de pedidos) * 100 |
+- Redução significativa de deslocamentos e economia de combustível;
+- Otimização do tempo de entrega ao cliente;
+- Diminuição do consumo de papel devido à redução das impressões duplicadas;
+- Melhor organização operacional entre a farmácia e filial.
 
+- [Detalhamento Completo - Processo 2](./processes/processo-2-nome-do-processo.md)
 
-Obs.: todas as informações necessárias para gerar os indicadores devem estar no diagrama de classe a ser apresentado posteriormente.
+---
+
+## Indicadores de Desempenho
+
+A seguir, são apresentados indicadores essenciais para avaliar a eficácia dos processos propostos. Esses indicadores estão alinhados com os objetivos estratégicos e operacionais do projeto **FarmaCeltas**:
+
+| Indicador                               | Objetivo                                 | Descrição                                                                | Fonte de Dados       | Fórmula de cálculo                                           |
+|-----------------------------------------|------------------------------------------|--------------------------------------------------------------------------|----------------------|--------------------------------------------------------------|
+| Percentual de erros em registros        | Avaliar redução de erros operacionais    | Mede o percentual de erros no preenchimento diário dos registros         | Tabela Registros     | (total de erros de registro / total de registros) * 100      |
+| Tempo médio gasto em registro diário    | Avaliar eficiência no processo diário    | Mede o tempo médio diário gasto pelos funcionários para registro da temperatura | Tabela Registros | (∑ tempo diário dos registros / número total de registros)   |
+| Percentual de entregas dentro do prazo  | Avaliar eficiência logística das entregas| Mede o percentual de entregas realizadas dentro do prazo previsto        | Tabela Entregas      | (entregas no prazo / total entregas realizadas) * 100        |
+| Quantidade mensal de papel consumido    | Monitorar redução no uso de papel        | Mede a quantidade total mensal de papel utilizado pela farmácia          | Controle Impressões  | Quantidade absoluta mensal de papel usado                    |
+| Índice de satisfação dos funcionários   | Avaliar impacto interno das mudanças     | Mede a satisfação dos funcionários com as melhorias implementadas        | Pesquisa Interna     | (funcionários satisfeitos / total de funcionários entrevistados) * 100 |
+
+> **Observação:**  
+> Todas as informações necessárias para o cálculo desses indicadores deverão estar claramente especificadas no diagrama de classes do projeto, garantindo a viabilidade da coleta e análise dos dados propostos.
