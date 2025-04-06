@@ -12,9 +12,11 @@ Na proposta de melhoria, o processo é reestruturado para permitir que, nos caso
 
 
 **Receber Pedido**
+
 Descrição: Nesta atividade, o atendente registra o pedido solicitado pelo cliente.
 
 Versão COMO ESTÁ (AS-IS): O pedido é sempre impresso na farmácia, independentemente de onde o produto será retirado.
+
 Versão A SER (TO-BE): O sistema identifica se o produto está apenas na filial. Nesses casos, o pedido é impresso diretamente na filial, otimizando o processo logístico.
 
 
@@ -32,9 +34,11 @@ Versão A SER (TO-BE): O sistema identifica se o produto está apenas na filial.
 
 
 **Conferir Estoque**
+
 Descrição: O sistema verifica se o produto está disponível na farmácia ou na filial.
 
 Versão COMO ESTÁ (AS-IS): A verificação é feita manualmente, e a decisão sobre onde imprimir o pedido não altera o fluxo.
+
 Versão A SER (TO-BE): A verificação automatizada permite que, se o produto estiver apenas na filial, o pedido seja impresso lá, eliminando um deslocamento do entregador.
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
@@ -51,9 +55,11 @@ Versão A SER (TO-BE): A verificação automatizada permite que, se o produto es
 
 
 **Separar e imprimir na Farmácia**
+
 Descrição: O produto é separado na farmácia e o pedido é impresso localmente.
 
 Versão COMO ESTÁ: Processo padrão seguido para todos os pedidos.
+
 Versão A SER: Só ocorre quando o produto está de fato na farmácia.
 
 | **Campo**       | **Tipo**        | **Restrições** | **Valor default** |
@@ -67,9 +73,11 @@ Versão A SER: Só ocorre quando o produto está de fato na farmácia.
 
 
 **Separar e Imprimir na Filial**
+
 Descrição: Quando o produto está apenas na filial, o pedido é impresso lá mesmo, evitando deslocamentos extras do entregador.
 
 Versão COMO ESTÁ: Não é possível — o entregador precisa ir até a farmácia só para buscar o pedido.
+
 Versão A SER: O pedido é enviado digitalmente à filial para impressão.
 
 | **Campo**          | **Tipo**         | **Restrições** | **Valor default** |
@@ -83,9 +91,11 @@ Versão A SER: O pedido é enviado digitalmente à filial para impressão.
 
 
 **Avisar Cliente**
+
 Descrição: Caso o produto não esteja disponível nem na farmácia nem na filial, o cliente é avisado.
 
 Versão COMO ESTÁ: Aviso pode demorar, pois depende de verificações manuais.
+
 Versão A SER: Sistema automatiza a verificação e notifica o cliente mais rapidamente.
 
 
@@ -105,6 +115,7 @@ Versão A SER: Sistema automatiza a verificação e notifica o cliente mais rapi
 Descrição: O entregador é informado sobre o local de retirada e o pedido já estará impresso no ponto correto.
 
 Versão COMO ESTÁ: Entregador precisa ir até dois locais (filial + farmácia).
+
 Versão A SER: Entregador vai direto até onde tudo está pronto, economizando tempo.
 
 
