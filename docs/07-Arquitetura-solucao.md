@@ -2,25 +2,31 @@
 
 <span style="color:red">Pré-requisitos: <a href="05-Projeto-interface.md"> Projeto de interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Nesta seção, apresentamos a arquitetura proposta para o desenvolvimento do sistema FarmaCeltas. A arquitetura foi planejada para garantir modularidade, escalabilidade, manutenibilidade e segurança, respeitando as boas práticas de desenvolvimento de software.
 
+O projeto será baseado em uma arquitetura multicamadas, separando claramente as responsabilidades entre Frontend, Backend e Banco de Dados, de forma a organizar o fluxo de dados e facilitar futuras expansões do sistema. A comunicação entre as camadas ocorrerá através de APIs RESTful, garantindo a interoperabilidade entre os componentes e permitindo uma experiência fluida ao usuário.
+
+Além disso, o sistema será preparado para integrar-se com serviços externos, como a API do ChatGPT (para interação inteligente com os usuários), respeitando limites de segurança e privacidade.
+
+A seguir, detalharemos as escolhas de tecnologias, os componentes da solução, a estrutura de comunicação entre módulos e as principais decisões de arquitetura adotadas.
 ![Arquitetura da Solução](images/arquitetura.png)
 
 ## Diagrama de classes
 
 O diagrama de classes ilustra graficamente a estrutura do software e como cada uma das classes estará interligada. Essas classes servem de modelo para materializar os objetos que serão executados na memória.
 
-> **Links úteis**:
-> - [Diagramas de classes - documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.7.0?topic=diagrams-class)
-> - [O que é um diagrama de classe UML?](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
 ##  Modelo de dados
 
-O desenvolvimento da solução proposta requer a existência de bases de dados que permitam realizar o cadastro de dados e os controles associados aos processos identificados, assim como suas recuperações.
+O desenvolvimento da solução FarmaCeltas exige a construção de uma base de dados robusta e integrada, capaz de sustentar o cadastro, a recuperação e o controle das informações relacionadas às funcionalidades e processos definidos. Essa estrutura permitirá o gerenciamento eficaz dos usuários, dos conteúdos educativos (vídeos, materiais, quizzes), das interações via ChatGPT, bem como o controle de registros operacionais, como o monitoramento da temperatura.
 
-Utilizando a notação do DER (Diagrama Entidade-Relacionamento), elabore um modelo, usando alguma ferramenta, que contemple todas as entidades e atributos associados às atividades dos processos identificados. Deve ser gerado um único DER que suporte todos os processos escolhidos, visando, assim, uma base de dados integrada. O modelo deve contemplar também o controle de acesso dos usuários (partes interessadas nos processos) de acordo com os papéis definidos nos modelos do processo de negócio.
+Com base na notação de Diagrama Entidade-Relacionamento (DER), foi elaborado um modelo conceitual unificado, contemplando todas as entidades, atributos e relacionamentos identificados nas etapas de levantamento dos processos de negócio. Este DER foi desenvolvido utilizando ferramentas específicas de modelagem, assegurando a padronização e a clareza dos elementos representados.
 
-Apresente o modelo de dados por meio de um modelo relacional que contemple todos os conceitos e atributos apresentados na modelagem dos processos.
+O modelo de dados também prevê o controle de acesso dos usuários, garantindo que cada perfil (usuário comum ou administrador) tenha permissões adequadas às suas funções no sistema, respeitando os papéis definidos no projeto de processos. As restrições de domínio, unicidade e integridade referencial foram implementadas para assegurar a consistência das informações armazenadas.
+
+Por fim, a modelagem foi mapeada para um modelo relacional detalhado, especificando as tabelas, seus atributos, chaves primárias, estrangeiras, restrições de integridade e domínios, de forma a viabilizar a criação e operação da base de dados no Sistema Gerenciador de Banco de Dados (SGBD) escolhido.
+
+## (NÃO ESQUECER DE COLOCAR) Apresente o modelo de dados por meio de um modelo relacional que contemple todos os conceitos e atributos apresentados na modelagem dos processos.
 
 ### Modelo ER
 
@@ -47,42 +53,53 @@ Insira aqui o script de criação das tabelas do banco de dados.
 Veja um exemplo:
 
 ```sql
--- Criação da tabela Medico
-CREATE TABLE Medico (
-    MedCodigo INTEGER PRIMARY KEY,
-    MedNome VARCHAR(100)
+-- Tabela de usuários
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    type VARCHAR(50) NOT NULL CHECK (type IN ('admin', 'common')),
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    deleted_at TIMESTAMP NULL
 );
 
--- Criação da tabela Paciente
-CREATE TABLE Paciente (
-    PacCodigo INTEGER PRIMARY KEY,
-    PacNome VARCHAR(100)
+CREATE TABLE quizzes (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    topic VARCHAR(100) NOT NULL,
+    difficulty VARCHAR(50) NOT NULL CHECK (type IN ('easy', 'medium', 'hard')),
 );
 
--- Criação da tabela Consulta
-CREATE TABLE Consulta (
-    ConCodigo INTEGER PRIMARY KEY,
-    MedCodigo INTEGER,
-    PacCodigo INTEGER,
-    Data DATE,
-    FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
+CREATE TABLE questions (
+    id SERIAL PRIMARY KEY,
+    quiz_id INTEGER NOT NULL REFERENCES quizzes(id) ON DELETE CASCADE,
+    statement TEXT NOT NULL,
+    alternatives JSONB NOT NULL,
+    correct_answer VARCHAR(255) NOT NULL
 );
 
--- Criação da tabela Medicamento
-CREATE TABLE Medicamento (
-    MdcCodigo INTEGER PRIMARY KEY,
-    MdcNome VARCHAR(100)
+CREATE TABLE user_quiz_results (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    quiz_id INTEGER NOT NULL REFERENCES quizzes(id) ON DELETE CASCADE,
+    score INTEGER NOT NULL
 );
 
--- Criação da tabela Prescricao
-CREATE TABLE Prescricao (
-    ConCodigo INTEGER,
-    MdcCodigo INTEGER,
-    Posologia VARCHAR(200),
-    PRIMARY KEY (ConCodigo, MdcCodigo),
-    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
-    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
+CREATE TABLE ia_questions (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    question_text TEXT NOT NULL,
+    ia_response TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE temperatures (
+    id SERIAL PRIMARY KEY,
+    value DECIMAL(5,2) NOT NULL CHECK (value BETWEEN 10 AND 40),
+    recorded_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    responsible_user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE SET NULL
 );
 ```
 Esse script deverá ser incluído em um arquivo .sql na pasta [de scripts SQL](../src/db).
