@@ -9,9 +9,9 @@ O projeto será baseado em uma arquitetura multicamadas, separando claramente as
 Além disso, o sistema será preparado para integrar-se com serviços externos, como a API do ChatGPT (para interação inteligente com os usuários), respeitando limites de segurança e privacidade.
 
 A seguir, detalharemos as escolhas de tecnologias, os componentes da solução, a estrutura de comunicação entre módulos e as principais decisões de arquitetura adotadas.
-![Arquitetura da Solução]
 
-(images/arquitetura.png)
+
+![Arquitetura da Solução](images/arquitetura.png)
 
 ## Diagrama de classes
 
