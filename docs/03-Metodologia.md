@@ -78,6 +78,21 @@ Atualizado em: 05/04/2025
 | Rafael Bernardoni Gomes              | Documentação do projeto                                 | 25/03/2025     | 06/04/2025 | ✔️       |06/04/2025      |
 | Vinicius do Amaral Fonseca Filho     | Slides e acompanhamento do projeto                      | 25/03/2025     | 06/04/2025 | ✔️       |05/04/2025      |
 
+#### Sprint 3
+
+Atualizado em: 05/04/2025
+
+| Responsável                          | Tarefa/Requisito                                  | Iniciado em    | Prazo      | Status   | Terminado em    |
+| :----                                |    :----                                          |      :----:    | :----:     | :----:   | :----:          |
+| Gabriel Assuncao Costa               | Projeto do banco de dados                         | 06/04/2025     | 11/05/2025 | ✔️       |10/06/2025      |
+| Gabriela Maria da Silva              | Jornada de usuários                               | 06/04/2025     | 11/05/2025 | ✔️       |10/06/2025      |
+| Krycia Figueiredo Azevedo            | Preenchimento e entrega parcial do relatório      | 06/04/2025     | 11/05/2025 | ✔️       |10/06/2025      |
+| Marcelo Henrique Passini Ferreira    | Planejamento e auxilio no prótotipo de telas      | 06/04/2025     | 11/05/2025 | ✔️       |10/06/2025      |
+| Rafael Bernardoni Gomes              | Documentação do projeto                           | 06/04/2025     | 11/05/2025 | ✔️       |10/06/2025      |
+| Vinicius do Amaral Fonseca Filho     | Prótotipação de telas                             | 06/04/2025     | 11/05/2025 | ✔️       |10/06/2025      |
+
+
+
 
 Legenda:
 - ✔️: terminado
