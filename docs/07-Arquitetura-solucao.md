@@ -11,12 +11,10 @@ Além disso, o sistema será preparado para integrar-se com serviços externos, 
 A seguir, detalharemos as escolhas de tecnologias, os componentes da solução, a estrutura de comunicação entre módulos e as principais decisões de arquitetura adotadas.
 
 
-![Arquitetura da Solução](images/arquitetura.png)
-
 ## Diagrama de classes
 
 O diagrama de classes ilustra graficamente a estrutura do software e como cada uma das classes estará interligada. Essas classes servem de modelo para materializar os objetos que serão executados na memória.
-
+![DiagramaDeClasses](https://github.com/user-attachments/assets/0d5332ef-e17c-4560-b743-00909ef62c1b)
 
 ##  Modelo de dados
 
