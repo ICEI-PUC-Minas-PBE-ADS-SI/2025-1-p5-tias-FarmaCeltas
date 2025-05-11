@@ -114,20 +114,25 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 | **Dimensão**   | **Tecnologia**  |
 | ---            | ---             |
 | Front-end      | HTML + CSS + JS + React |
-| Back-end       | Node.js         |
-| SGBD           | MySQL           |
+| Back-end       | PHP         |
+| SGBD           | PostgreSQL           |
 | Deploy         | Vercel          |
 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foram realizados.
+A aplicação deve ser hospedada na plataforma Vercel, que oferece integração contínua com o GitHub e suporte nativo para aplicações front-end modernas, especialmente aquelas desenvolvidas com React. O front-end foi implantado diretamente a partir do repositório principal do projeto, utilizando a estrutura de build automática da plataforma, o que facilitou o processo de entrega contínua.
 
-> **Links úteis**:
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando seu site no Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+Já o back-end e o banco de dados foram desenvolvidos localmente em ambiente Docker e, posteriormente, planejados para migração futura para uma plataforma de hospedagem como Render, Heroku ou Railway, visando maior escalabilidade e integração com o PostgreSQL.
+
+Essa estratégia de hospedagem foi pensada para permitir:
+
+    Separação clara entre front-end e back-end;
+
+    Facilidade de manutenção e testes;
+
+    Acesso rápido e público à interface do sistema para avaliação acadêmica e extensão à comunidade.
+    
 
 ## Qualidade de software
 
