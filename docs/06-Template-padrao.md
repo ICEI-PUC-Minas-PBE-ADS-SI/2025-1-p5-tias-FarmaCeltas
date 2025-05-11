@@ -12,6 +12,8 @@ O logotipo da aplicação "Farmaceltas" combina elementos gráficos simples e ob
 No centro do carro, há um símbolo de cruz verde, tradicionalmente associado à área da saúde e farmácias. Esse elemento representa o compromisso com o bem-estar, a confiabilidade e a atuação na área farmacêutica.
 Abaixo do ícone, está o nome "Farmaceltas", em fonte limpa e legível, reforçando a identidade da marca. O uso da cor verde em todo o logotipo transmite sensações de saúde, equilíbrio e segurança — atributos essenciais para uma aplicação voltada ao fornecimento de informações sobre medicamentos.
 
+![logoFarmaceltas](https://github.com/user-attachments/assets/658b30c5-c40e-4c25-b33a-aafa99443b13)
+
 # Responsividade:
 No desenvolvimento do site informativo da Farmaceltas, a responsividade foi considerada um dos principais pilares desde as etapas iniciais do planejamento. O objetivo foi proporcionar uma navegação simples, eficiente e agradável em qualquer tipo de dispositivo — seja computador, tablet ou smartphone. Tendo em vista que grande parte dos usuários acessará a plataforma por meio de celulares, o design responsivo foi tratado como uma necessidade fundamental, não apenas para garantir uma boa experiência de uso, mas também para assegurar a acessibilidade e o alcance da informação ao maior número de pessoas possível.
 
@@ -22,6 +24,7 @@ Depois, é preciso identificar todas as seções do site que precisam de represe
 
 Por fim, o estilo visual dos ícones deve combinar com o design do site. Os símbolos escolhidos — como frascos para remédios ou maçãs para alimentos — devem ser testados para garantir que os usuários os entendam facilmente.
 
+![image](https://github.com/user-attachments/assets/051074c2-3fe6-4404-94a2-7751cd48f05b)
 
 
 > **Links úteis**:
