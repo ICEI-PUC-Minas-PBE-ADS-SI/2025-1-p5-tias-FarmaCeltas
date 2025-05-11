@@ -62,7 +62,8 @@ Descrição da tela principal do sistema.
 
 Descrição da tela relativa à atividade 1 do processo 1.
 
-> Insira aqui a tela da atividade 1
+> ![image](https://github.com/user-attachments/assets/b1becde8-0712-4438-8bf5-31c6f8929765)
+
 
 Descrição da tela relativa à atividade 2 do processo 1.
 
