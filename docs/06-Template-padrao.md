@@ -9,7 +9,7 @@ A identidade visual tem um papel essencial na construção de um projeto, pois �
 O logotipo da aplicação "Farmaceltas" combina elementos gráficos simples e objetivos para representar de forma clara o propósito do projeto. A imagem principal é um carro estilizado na cor verde, simbolizando o serviço de entrega e o dinamismo da farmácia em levar informação e cuidado até o usuário, reforçando a ideia de acessibilidade e agilidade.
 No centro do carro, há um símbolo de cruz verde, tradicionalmente associado à área da saúde e farmácias. Esse elemento representa o compromisso com o bem-estar, a confiabilidade e a atuação na área farmacêutica.
 Abaixo do ícone, está o nome "Farmaceltas", em fonte limpa e legível, reforçando a identidade da marca. O uso da cor verde em todo o logotipo transmite sensações de saúde, equilíbrio e segurança — atributos essenciais para uma aplicação voltada ao fornecimento de informações sobre medicamentos.
-![image](https://github.com/user-attachments/assets/9ca1acd5-2728-4f36-84c1-4b7cc91e4600)
+
 
 
 > **Links úteis**:
