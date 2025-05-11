@@ -15,6 +15,13 @@ Abaixo do ícone, está o nome "Farmaceltas", em fonte limpa e legível, reforç
 # Responsividade:
 No desenvolvimento do site informativo da Farmaceltas, a responsividade foi considerada um dos principais pilares desde as etapas iniciais do planejamento. O objetivo foi proporcionar uma navegação simples, eficiente e agradável em qualquer tipo de dispositivo — seja computador, tablet ou smartphone. Tendo em vista que grande parte dos usuários acessará a plataforma por meio de celulares, o design responsivo foi tratado como uma necessidade fundamental, não apenas para garantir uma boa experiência de uso, mas também para assegurar a acessibilidade e o alcance da informação ao maior número de pessoas possível.
 
+# Iconografia:
+A escolha da iconografia para um site de compras vai além da estética — ela é essencial para facilitar a navegação, destacar funções e reforçar a identidade da marca. O primeiro passo é entender o público-alvo, considerando idade, familiaridade com tecnologia e preferências visuais. Para um público variado, ícones simples e de fácil compreensão, preferencialmente com texto, funcionam melhor.
+
+Depois, é preciso identificar todas as seções do site que precisam de representação visual, como categorias de produtos (medicamentos, beleza, higiene, etc.) e funcionalidades (carrinho, busca, menu, etc.). Cada item deve ter um ícone claro e coerente com sua função.
+
+Por fim, o estilo visual dos ícones deve combinar com o design do site. Os símbolos escolhidos — como frascos para remédios ou maçãs para alimentos — devem ser testados para garantir que os usuários os entendam facilmente.
+
 
 
 > **Links úteis**:
