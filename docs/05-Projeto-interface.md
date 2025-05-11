@@ -53,22 +53,26 @@ Visão geral da interação do usuário por meio das telas do sistema. Apresente
 
 ### Tela principal do sistema
 
-Descrição da tela principal do sistema.
+Tela inicial do Farmaceltas, onde nela podemos clicar no botão "Busque aqui" para realizar uma busca sobre um medicamente, artigo lançado por medico parceiro, outros botões como "Quizzes", "Conteudo", "Estudos" e "Ajuda". Mais abaixo tem alguns destaques da semana.
 
-> Insira aqui a tela principal do sistema
+> ![image](https://github.com/user-attachments/assets/7f8d3164-9ac4-4803-97dc-7c97c87bacf6)
+
 
 
 ###  Telas do processo 1
 
-Tela inicial do Farmaceltas, onde nela podemos clicar no botão "Busque aqui" para realizar uma busca sobre um medicamente, artigo lançado por medico parceiro, outros botões como "Quizzes", "Conteudo", "Estudos" e "Ajuda". Mais abaixo tem alguns destaques da semana.
-
+Tela do quizz, onte nesta tela temos a pergunta de multipla escolha.
 > ![image](https://github.com/user-attachments/assets/b1becde8-0712-4438-8bf5-31c6f8929765)
 
 
-Está é a tela de busca, onde é uma segunda atividade gerada da tela inicial.
+Está é a tela ddo quizz caso a resposta correta.
 
-> ![image](https://github.com/user-attachments/assets/1730c0f7-9fb8-46c4-8983-ba92995f50c2)
+> ![image](https://github.com/user-attachments/assets/9f5e4931-503c-4f84-a5ac-3ad2f46553e7)
 
+
+Está é a tela ddo quizz caso a resposta errada.
+
+> ![image](https://github.com/user-attachments/assets/d67d5a28-58a5-4579-90a7-b1855ef5f552)
 
 
 ### Telas do processo 2
