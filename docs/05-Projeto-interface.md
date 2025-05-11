@@ -49,7 +49,12 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 
 ## Interface do sistema
 
-Visão geral da interação do usuário por meio das telas do sistema. Apresente as principais interfaces da plataforma em sua versão final.
+![image](https://github.com/user-attachments/assets/d9a558b2-9280-4cbf-aee0-ea18804f9ea1)
+![image](https://github.com/user-attachments/assets/5d2c259d-b970-447f-9e65-62dd8d4b9669)
+![image](https://github.com/user-attachments/assets/e885cbf9-83dc-4b31-8ccc-4c182fe62f23)
+
+
+
 
 ### Tela principal do sistema
 
