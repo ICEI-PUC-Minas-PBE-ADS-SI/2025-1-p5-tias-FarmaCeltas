@@ -60,14 +60,15 @@ Descrição da tela principal do sistema.
 
 ###  Telas do processo 1
 
-Descrição da tela relativa à atividade 1 do processo 1.
+Tela inicial do Farmaceltas, onde nela podemos clicar no botão "Busque aqui" para realizar uma busca sobre um medicamente, artigo lançado por medico parceiro, outros botões como "Quizzes", "Conteudo", "Estudos" e "Ajuda". Mais abaixo tem alguns destaques da semana.
 
 > ![image](https://github.com/user-attachments/assets/b1becde8-0712-4438-8bf5-31c6f8929765)
 
 
-Descrição da tela relativa à atividade 2 do processo 1.
+Está é a tela de busca, onde é uma segunda atividade gerada da tela inicial.
 
-> Insira aqui a tela da atividade 2
+> ![image](https://github.com/user-attachments/assets/1730c0f7-9fb8-46c4-8983-ba92995f50c2)
+
 
 
 ### Telas do processo 2
