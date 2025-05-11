@@ -6,6 +6,8 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 
 # Indentificação Visual:
 A identidade visual tem um papel essencial na construção de um projeto, pois é por meio dela que se transmite a proposta e os valores da marca ao público. Além disso, ela contribui para gerar uma percepção positiva e promover uma conexão com os usuários. Para atingir esse resultado, foi realizada uma pesquisa aprofundada com o objetivo de transformar esses conceitos em elementos visuais que unissem clareza, simplicidade e atratividade.
+
+# Desenvolvimento do Logotipo:
 O logotipo da aplicação "Farmaceltas" combina elementos gráficos simples e objetivos para representar de forma clara o propósito do projeto. A imagem principal é um carro estilizado na cor verde, simbolizando o serviço de entrega e o dinamismo da farmácia em levar informação e cuidado até o usuário, reforçando a ideia de acessibilidade e agilidade.
 No centro do carro, há um símbolo de cruz verde, tradicionalmente associado à área da saúde e farmácias. Esse elemento representa o compromisso com o bem-estar, a confiabilidade e a atuação na área farmacêutica.
 Abaixo do ícone, está o nome "Farmaceltas", em fonte limpa e legível, reforçando a identidade da marca. O uso da cor verde em todo o logotipo transmite sensações de saúde, equilíbrio e segurança — atributos essenciais para uma aplicação voltada ao fornecimento de informações sobre medicamentos.
