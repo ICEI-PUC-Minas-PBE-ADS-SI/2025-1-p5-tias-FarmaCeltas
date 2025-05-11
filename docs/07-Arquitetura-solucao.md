@@ -134,15 +134,28 @@ Essa estratégia de hospedagem foi pensada para permitir:
     Acesso rápido e público à interface do sistema para avaliação acadêmica e extensão à comunidade.
     
 
-## Qualidade de software
+Qualidade de Software
 
-Conceituar qualidade é uma tarefa complexa, mas ela pode ser vista como um método gerencial que, por meio de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+Para nortear o desenvolvimento do sistema FarmaCeltas, a equipe adotou como base o modelo de qualidade definido na norma ISO/IEC 25010, com foco nas seguintes subcaracterísticas:
 
-No contexto do desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem atendidas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, esse nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software. Com base nessas características e nas respectivas subcaracterísticas, identifique as subcaracterísticas que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software, considerando alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão à equipe avaliar os objetos de interesse.
+| **Característica**   | **Subcaracterística** | **Justificativa**                                                                             |
+| -------------------- | --------------------- | --------------------------------------------------------------------------------------------- |
+| **Usabilidade**      | Operacionalidade      | A interface deve ser intuitiva e fácil de navegar para todos os públicos.                     |
+|                      | Acessibilidade        | Conteúdos e textos precisam ser compreensíveis mesmo para leigos em tecnologia.               |
+| **Desempenho**       | Tempo de resposta     | O sistema deve responder rapidamente às ações do usuário, especialmente nas buscas e quizzes. |
+| **Confiabilidade**   | Maturidade            | O sistema deve ser estável e livre de falhas, garantindo confiança no uso diário.             |
+| **Segurança**        | Confidencialidade     | As informações dos usuários devem ser protegidas, com controle de acesso adequado.            |
+| **Manutenibilidade** | Modificabilidade      | O código deve ser organizado para facilitar correções e melhorias futuras.                    |
 
-> **Links úteis**:
-> - [ISO/IEC 25010:2011 - Systems and Software Engineering — Systems and Software Quality Requirements and Evaluation (SQuaRE) — System and Software Quality Models](https://www.iso.org/standard/35733.html/)
-> - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
-> - [Qualidade de software - Engenharia de Software](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209)
+
+
+| **Subcaracterística** | **Métrica**                                | **Como será avaliada**                              |
+| --------------------- | ------------------------------------------ | --------------------------------------------------- |
+| Operacionalidade      | Tempo médio para completar um quiz         | Testes com usuários reais durante simulações de uso |
+| Acessibilidade        | Contraste e legibilidade                   | Validação com Lighthouse e revisão de boas práticas |
+| Tempo de resposta     | Tempo médio de resposta da API (em ms)     | Monitoramento com Postman ou JMeter                 |
+| Maturidade            | Número de erros críticos durante testes    | Registro de falhas em sessões de testes             |
+| Confidencialidade     | Armazenamento seguro de senhas (hash, JWT) | Revisão de código e testes de autenticação          |
+| Modificabilidade      | Clareza e organização do código            | Avaliação por code review e padronização em equipe  |
+
