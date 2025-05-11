@@ -51,7 +51,7 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 
 ###  Principais Telas
 
-Tela Sobre a empresa
+Tela Sobre a empresa.
 > ![image](https://github.com/user-attachments/assets/208f25d4-cae3-4735-93b6-9bdd4b0d5925)
 
 Tela criada por parceiro.
