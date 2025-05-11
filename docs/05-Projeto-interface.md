@@ -61,8 +61,8 @@ Tela inicial do Farmaceltas, onde nela podemos clicar no botão "Busque aqui" pa
 
 ###  Telas do processo 1
 
-Tela do quizz, onte nesta tela temos a pergunta de multipla escolha.
-> ![image](https://github.com/user-attachments/assets/b1becde8-0712-4438-8bf5-31c6f8929765)
+Tela do quizz, onde nesta tela temos a pergunta de multipla escolha.
+> ![image](https://github.com/user-attachments/assets/f20b9e99-6927-4271-b122-c54db31fa778)
 
 
 Está é a tela ddo quizz caso a resposta correta.
