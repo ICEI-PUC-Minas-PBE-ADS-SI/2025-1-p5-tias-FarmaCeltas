@@ -77,10 +77,12 @@ Está é a tela ddo quizz caso a resposta errada.
 
 ### Telas do processo 2
 
-Descrição da tela relativa à atividade 1 do processo 2.
+Tela de busca, onde pode buscar algum documento sobre um medicamento.
 
-> Insira aqui a tela da atividade 1
+> ![image](https://github.com/user-attachments/assets/6ae68342-8945-4f01-b2b8-917fd8801b98)
 
-Descrição da tela relativa à atividade 2 do processo 2.
 
-> Insira aqui a tela da atividade 2
+Tela do medicamento pesquisado
+
+> ![image](https://github.com/user-attachments/assets/4c694054-97ad-4101-8c0c-c0126e074eb8)
+
