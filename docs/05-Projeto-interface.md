@@ -49,14 +49,16 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 
 ## Interface do sistema
 
-###  Telas do processo 1
+###  Principais Telas
 
-Tela do quizz, onde nesta tela temos a pergunta de multipla escolha.
-> ![image](https://github.com/user-attachments/assets/f20b9e99-6927-4271-b122-c54db31fa778)
+Tela Sobre a empresa
+> ![image](https://github.com/user-attachments/assets/208f25d4-cae3-4735-93b6-9bdd4b0d5925)
 
-Tela do quizz, onde nesta tela temos a pergunta de multipla escolha.
-> ![image](https://github.com/user-attachments/assets/f20b9e99-6927-4271-b122-c54db31fa778)
+Tela criada por parceiro.
+> ![image](https://github.com/user-attachments/assets/2124f838-17d3-46de-9dbc-3b19926fb499)
 
+Tela de quizzes.
+> ![image](https://github.com/user-attachments/assets/97401b3d-fd54-4235-8521-8d159fd01c90)
 
 
 
