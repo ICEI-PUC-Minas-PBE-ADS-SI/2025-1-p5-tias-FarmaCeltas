@@ -49,12 +49,13 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 
 ## Interface do sistema
 
-> Tela do quizz, onde nesta tela temos a pergunta de multipla escolha.
-> ![image](https://github.com/user-attachments/assets/d9a558b2-9280-4cbf-aee0-ea18804f9ea1)
-> Tela do quizz, onde nesta tela temos a pergunta de multipla escolha.
-> ![image](https://github.com/user-attachments/assets/5d2c259d-b970-447f-9e65-62dd8d4b9669)
-> Tela do quizz, onde nesta tela temos a pergunta de multipla escolha.
-> ![image](https://github.com/user-attachments/assets/e885cbf9-83dc-4b31-8ccc-4c182fe62f23)
+###  Telas do processo 1
+
+Tela do quizz, onde nesta tela temos a pergunta de multipla escolha.
+> ![image](https://github.com/user-attachments/assets/f20b9e99-6927-4271-b122-c54db31fa778)
+
+Tela do quizz, onde nesta tela temos a pergunta de multipla escolha.
+> ![image](https://github.com/user-attachments/assets/f20b9e99-6927-4271-b122-c54db31fa778)
 
 
 
