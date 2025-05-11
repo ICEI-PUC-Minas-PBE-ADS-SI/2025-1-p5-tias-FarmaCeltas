@@ -4,6 +4,7 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, descrição sobre o significado e os elementos visuais do logotipo da aplicação, aspectos de responsividade e iconografia.
 
+Indentificação Visual:
 > **Links úteis**:
 >
 > - [CSS website layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
