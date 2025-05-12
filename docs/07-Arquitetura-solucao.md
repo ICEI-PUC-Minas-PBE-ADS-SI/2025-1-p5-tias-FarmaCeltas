@@ -26,35 +26,26 @@ O modelo de dados também prevê o controle de acesso dos usuários, garantindo 
 
 Por fim, a modelagem foi mapeada para um modelo relacional detalhado, especificando as tabelas, seus atributos, chaves primárias, estrangeiras, restrições de integridade e domínios, de forma a viabilizar a criação e operação da base de dados no Sistema Gerenciador de Banco de Dados (SGBD) escolhido.
 
-## (NÃO ESQUECER DE COLOCAR) Apresente o modelo de dados por meio de um modelo relacional que contemple todos os conceitos e atributos apresentados na modelagem dos processos.
 
 ### Modelo ER
 
 O Modelo ER representa, por meio de um diagrama, como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-> **Links úteis**:
-> - [Como fazer um diagrama entidade relacionamento](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+![Modelo ER](images/ER.drawio.png)
+
 
 ### Esquema relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
 
-![Exemplo de um modelo relacional](images/modelo_relacional.png "Exemplo de modelo relacional.")
----
+![Modelo DER](images/DER.drawio.png)
 
-> **Links úteis**:
-> - [Criando um modelo relacional - documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/12.0.0?topic=designer-creating-relational-model)
 
 ### Modelo físico
 
-Insira aqui o script de criação das tabelas do banco de dados.
-
-Veja um exemplo:
-
 ```sql
-CREATE TABLE users (
-    id SERIAL PRIMARY KEY,
+CREATE TABLE user (
+    user_id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
@@ -64,52 +55,84 @@ CREATE TABLE users (
     deleted_at TIMESTAMP NULL
 );
 
-CREATE TABLE quizzes (
-    id SERIAL PRIMARY KEY,
+CREATE TABLE quizz (
+    quizz_id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
-    topic VARCHAR(100) NOT NULL,
-    difficulty VARCHAR(50) NOT NULL CHECK (type IN ('easy', 'medium', 'hard')),
+    theme VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
+    difficulty VARCHAR(50) NOT NULL CHECK (difficulty IN ('easy', 'medium', 'hard')),
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    deleted_at TIMESTAMP NULL,
+    user_id INTEGER NOT NULL REFERENCES user(id) ON DELETE CASCADE
 );
 
-CREATE TABLE questions (
-    id SERIAL PRIMARY KEY,
-    quiz_id INTEGER NOT NULL REFERENCES quizzes(id) ON DELETE CASCADE,
-    statement TEXT NOT NULL,
-    alternatives JSONB NOT NULL,
-    correct_answer VARCHAR(255) NOT NULL
+CREATE TABLE question (
+    question_id SERIAL PRIMARY KEY,
+    enunciation TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    deleted_at TIMESTAMP NULL,
+    quizz_id INTEGER NOT NULL REFERENCES quizz(id) ON DELETE CASCADE
 );
 
-CREATE TABLE user_quiz_results (
-    id SERIAL PRIMARY KEY,
-    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-    quiz_id INTEGER NOT NULL REFERENCES quizzes(id) ON DELETE CASCADE,
+CREATE TABLE user_answer (
+    answer_id SERIAL PRIMARY KEY,
+    answer VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    deleted_at TIMESTAMP NULL,
+    user_id INTEGER NOT NULL REFERENCES user(id) ON DELETE CASCADE,
+    quizz_id INTEGER NOT NULL REFERENCES quizz(id) ON DELETE CASCADE,
     score INTEGER NOT NULL
 );
 
-CREATE TABLE ia_questions (
-    id SERIAL PRIMARY KEY,
-    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-    question_text TEXT NOT NULL,
-    ia_response TEXT NOT NULL,
-    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+CREATE TABLE answer_option (
+    answer_option_id SERIAL PRIMARY KEY,
+    is_correct BOOLEAN NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    deleted_at TIMESTAMP NULL,
+    question_id INTEGER NOT NULL REFERENCES question(id) ON DELETE CASCADE
 );
 
-CREATE TABLE temperatures (
-    id SERIAL PRIMARY KEY,
-    value DECIMAL(5,2) NOT NULL CHECK (value BETWEEN 10 AND 40),
-    recorded_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    responsible_user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE SET NULL
+CREATE TABLE post (
+    post_id SERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    image VARCHAR(255),
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    deleted_at TIMESTAMP NULL,
+    publish_at TIMESTAMP NULL,
+    user_id INTEGER NOT NULL REFERENCES user(id) ON DELETE CASCADE
 );
+
+CREATE TABLE category (
+    category_id SERIAL PRIMARY KEY,
+    category_name VARCHAR(255)
+);
+
+
+CREATE TABLE post_categoria (
+    post_id INTEGER NOT NULL REFERENCES post(id) ON DELETE CASCADE,
+    category_id INTEGER NOT NULL REFERENCES category(id) ON DELETE CASCADE
+);
+
+CREATE TABLE ia_data (
+    interaction_id SERIAL PRIMARY KEY,
+    user_message TEXT,
+    ia_answer TEXT,
+    interaction_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    user_id INTEGER NOT NULL REFERENCES user(id) ON DELETE CASCADE
+);
+
 ```
-Esse script deverá ser incluído em um arquivo .sql na pasta [de scripts SQL](../src/db).
+
+[Link do script na pasta](../src/db/scripBanco.sql)
 
 
 ## Tecnologias
-
-Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
 
 | **Dimensão**   | **Tecnologia**  |
 | ---            | ---             |
