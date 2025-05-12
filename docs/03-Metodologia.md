@@ -86,9 +86,9 @@ Atualizado em: 09/05/2025
 | :----                                |    :----                                          |      :----:    | :----:     | :----:   | :----:          |
 | Gabriel Assuncao Costa               | Projeto do banco de dados                         | 06/04/2025     | 11/05/2025 | ✔️       |10/05/2025      |
 | Gabriela Maria da Silva              | Jornada de usuários                               | 06/04/2025     | 11/05/2025 | ✔️       |10/05/2025      |
-| Krycia Figueiredo Azevedo            | Preenchimento e entrega parcial do relatório      | 06/04/2025     | 11/05/2025 | ✔️       |10/05/2025      |
-| Marcelo Henrique Passini Ferreira    | Planejamento e auxilio no prótotipo de telas      | 06/04/2025     | 11/05/2025 | ✔️       |10/05/2025      |
-| Rafael Bernardoni Gomes              | Documentação do projeto                           | 06/04/2025     | 11/05/2025 | ✔️       |11/05/2025      |
+| Krycia Figueiredo Azevedo            | Responsável pelos diagramas                       | 06/04/2025     | 11/05/2025 | ✔️       |10/05/2025      |
+| Marcelo Henrique Passini Ferreira    | Planejamento e slides                             | 06/04/2025     | 11/05/2025 | ✔️       |10/05/2025      |
+| Rafael Bernardoni Gomes              | Preenchimento de APC e partes 5 e 6 do github     | 06/04/2025     | 11/05/2025 | ✔️       |11/05/2025      |
 | Vinicius do Amaral Fonseca Filho     | Prótotipação de telas                             | 06/04/2025     | 11/05/2025 | ✔️       |10/05/2025      |
 
 
