@@ -12,11 +12,7 @@ Este projeto usa Docker para simplificar o ambiente de desenvolvimento. Siga os 
     Clone o repositório:
 
 git clone <url-do-repositorio>
-cd <FarmaCeltas>
-
-    Copie o .env de exemplo e configure:
-    Suba os containers com Docker:
-
+cd FarmaCeltas
 docker compose up -d --build
 
 Esse comando irá:
