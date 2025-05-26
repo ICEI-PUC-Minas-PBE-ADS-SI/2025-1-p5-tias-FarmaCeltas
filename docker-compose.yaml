@@ -30,6 +30,8 @@ services:
       POSTGRES_PASSWORD: secretpassword
     ports:
       - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
 
   composer:
     build:
@@ -52,6 +54,17 @@ services:
     entrypoint: ["npm"]
     volumes:
       - ./development:/var/www/html
+
+  app:
+    build:
+      context: .
+      dockerfile: dockerfiles/php.dockerfile
+    volumes:
+      - ./development:/var/www/html
+    working_dir: /var/www/html
+    entrypoint: ["sh"]
+    tty: true
+    stdin_open: true
 
 volumes:
   postgres_data:
