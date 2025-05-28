@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -22,6 +23,24 @@ class AuthController extends Controller
             'token_type' => 'Bearer',
             'expires_in' => JWTAuth::factory()->getTTL() * 60,
         ]);
+    }
+
+    public function register(Request $request):JsonResponse
+    {
+        $user = User::create([
+            'name' => $request->input('name'),
+            'email' => $request->input('email'),
+            'password' => bcrypt($request->input('password')),
+            'celphone' => $request->input('phone', null),
+        ]);
+
+        return response()->json(
+            [
+                'message' => 'User registered successfully',
+                'user' => $user,
+            ],
+            Response::HTTP_CREATED,
+        );
     }
 
     public function logout(): JsonResponse
