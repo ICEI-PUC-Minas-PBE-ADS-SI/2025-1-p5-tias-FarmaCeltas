@@ -10,9 +10,12 @@ use Illuminate\Support\Facades\Auth;
 
 class QuizController extends Controller
 {
-    public function index(): JsonResponse
+    public function index(Request $request): JsonResponse
     {
-        return response()->json(Quizz::all(), 200);
+        $perPage = $request->query('per_page', 9);
+        $quizzes = Quizz::paginate($perPage);
+
+        return response()->json($quizzes, 200);
     }
 
     public function show($id): JsonResponse
