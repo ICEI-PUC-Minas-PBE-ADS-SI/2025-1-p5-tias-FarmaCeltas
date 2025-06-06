@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Quizz\AnswerController;
 use App\Http\Controllers\Quizz\QuizController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
@@ -17,5 +18,7 @@ Route::middleware('auth:api')->group(function () {
     Route::post('/quizzes', [QuizController::class, 'store']);
     Route::put('/quizzes/{id}', [QuizController::class, 'update']);
     Route::delete('/quizzes/{id}', [QuizController::class, 'destroy']);
+
+    Route::post('/quizzes/{quiz}/submit', [AnswerController::class, 'submit']);
 });
 
