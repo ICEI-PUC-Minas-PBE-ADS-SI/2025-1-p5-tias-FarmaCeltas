@@ -1,33 +1,3 @@
-<script setup>
-import { ref, onMounted } from 'vue'
-import api from '../api/axios'
-
-const quizzes = ref([])
-const meta = ref({
-  current_page: 1,
-  next_page_url: null,
-  prev_page_url: null,
-})
-
-const fetchQuizzes = async (page = 1) => {
-  try {
-    const response = await api.get(/quizzes?page=${page})
-    quizzes.value = response.data.data
-    meta.value = {
-      current_page: response.data.current_page,
-      next_page_url: response.data.next_page_url,
-      prev_page_url: response.data.prev_page_url,
-    }
-  } catch (err) {
-    console.error('Erro ao carregar quizzes:', err)
-  }
-}
-
-onMounted(() => {
-  fetchQuizzes()
-})
-</script>
-
 <template>
   <div class="quiz-wrapper">
     <div class="quiz-box">
@@ -43,7 +13,7 @@ onMounted(() => {
           <p><strong>Tema:</strong> {{ quiz.theme }}</p>
           <p><strong>Dificuldade:</strong> {{ quiz.difficulty }}</p>
 
-          <router-link :to="/quizzes/${quiz.id}" class="quiz-link">
+          <router-link :to="`/quizzes/${quiz.id}`" class="quiz-link">
             Ver quiz →
           </router-link>
         </div>
@@ -60,6 +30,36 @@ onMounted(() => {
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref, onMounted } from 'vue'
+import api from '../api/axios'
+
+const quizzes = ref([])
+const meta = ref({
+  current_page: 1,
+  next_page_url: null,
+  prev_page_url: null,
+})
+
+const fetchQuizzes = async (page = 1) => {
+  try {
+    const response = await api.get(`/quizzes?page=${page}`)
+    quizzes.value = response.data.data
+    meta.value = {
+      current_page: response.data.current_page,
+      next_page_url: response.data.next_page_url,
+      prev_page_url: response.data.prev_page_url,
+    }
+  } catch (err) {
+    console.error('Erro ao carregar quizzes:', err)
+  }
+}
+
+onMounted(() => {
+  fetchQuizzes()
+})
+</script>
 
 <style scoped>
 .quiz-wrapper {
