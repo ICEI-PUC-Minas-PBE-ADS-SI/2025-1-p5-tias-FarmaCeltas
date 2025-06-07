@@ -4,6 +4,7 @@ use App\Http\Controllers\Quizz\AnswerController;
 use App\Http\Controllers\Quizz\QuizController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\Posts\PostsController;
 
 Route::post('/login', [AuthController::class, 'login']);
 Route::post('/register', [AuthController::class, 'register']);
@@ -20,5 +21,11 @@ Route::middleware('auth:api')->group(function () {
     Route::delete('/quizzes/{id}', [QuizController::class, 'destroy']);
 
     Route::post('/quizzes/{quiz}/submit', [AnswerController::class, 'submit']);
+
+    Route::get('/posts', [PostsController::class, 'index']);
+    Route::get('/posts/{id}', [PostsController::class, 'show']);
+    Route::post('/posts', [PostsController::class, 'store']);
+    Route::put('/posts/{id}', [PostsController::class, 'update']);
+    Route::delete('/posts/{id}', [PostsController::class, 'destroy']);
 });
 
