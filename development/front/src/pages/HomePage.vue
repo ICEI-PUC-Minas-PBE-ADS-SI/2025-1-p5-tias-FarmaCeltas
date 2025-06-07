@@ -15,5 +15,9 @@
   text-align: center;
   background-color: #d6f5d6;
   min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 </style>

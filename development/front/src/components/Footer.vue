@@ -23,8 +23,7 @@
 }
 
 .footer-content {
-  max-width: 1000px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .footer-branding {
