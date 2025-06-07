@@ -52,6 +52,7 @@ const submit = async () => {
     })
 
     localStorage.setItem('token', response.data.token)
+    window.dispatchEvent(new Event('storage'))
     router.push('/')
   } catch (err) {
     error.value = 'Credenciais inválidas ou erro no login.'

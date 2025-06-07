@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class QuizzQuestion extends Model
 {
@@ -15,7 +16,11 @@ class QuizzQuestion extends Model
         'correct_answer',
     ];
 
-    public function quiz(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    protected $casts = [
+        'options' => 'array',
+    ];
+
+    public function quiz(): BelongsTo
     {
         return $this->belongsTo(Quizz::class);
     }
