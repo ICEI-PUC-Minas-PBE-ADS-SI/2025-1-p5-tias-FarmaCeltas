@@ -9,6 +9,7 @@
       <nav class="nav-links">
         <router-link to="/" class="nav-link">Início</router-link>
         <router-link to="/quizz-list" class="nav-link">Quizzes</router-link>
+        <router-link to="/materiais-list" class="nav-link">Materiais de estudo</router-link>
 
         <template v-if="!isAuthenticated">
           <router-link to="/login" class="nav-link">Login</router-link>
