@@ -8,9 +8,9 @@
 
     <section class="banner">
       <img
-          src= ""
-          alt="Farmacêutico"
-          class="banner-image"
+        :src="homeImg"
+        alt="Farmacêutico"
+        class="banner-image"
       />
       <div class="banner-text">
         <p>
@@ -53,6 +53,10 @@
     </section>
   </div>
 </template>
+
+<script setup>
+import homeImg from '@/assets/homeimg.svg'
+</script>
 
 <script>
 export default {
@@ -109,13 +113,16 @@ export default {
   background-color: #f9f9f9;
 }
 
-.banner img {
-  width: 100%;
-  max-width: 600px;
-  height: 200px;
+
+.banner-image {
+  width: 80%;
+  max-width: 640px; /* ajuste gradual */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
   object-fit: cover;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
 }
 
 
