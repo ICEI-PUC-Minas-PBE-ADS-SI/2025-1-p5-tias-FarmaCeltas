@@ -21,3 +21,15 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Laravel cache e sessões
+/storage/*
+!/storage/app/
+/storage/app/*
+!/storage/framework/
+/storage/framework/*
+!/storage/framework/cache
+!/storage/framework/sessions
+!/storage/framework/views
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
