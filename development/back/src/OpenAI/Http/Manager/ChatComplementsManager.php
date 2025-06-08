@@ -7,7 +7,7 @@ use Illuminate\Support\Str;
 use Saloon\Exceptions\Request\FatalRequestException;
 use Saloon\Exceptions\Request\Statuses\ForbiddenException;
 use Saloon\Exceptions\Request\Statuses\TooManyRequestsException;
-use src\OpenAI\Http\OpenAIConnector;
+use src\OpenAI\OpenAIConnector;
 use src\OpenAI\Http\Post\ChatComplement;
 use Throwable;
 
