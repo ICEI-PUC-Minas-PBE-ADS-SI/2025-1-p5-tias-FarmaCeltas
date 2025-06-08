@@ -1,0 +1,175 @@
+<template>
+  <div class="landing-body">
+    <section class="destaque">
+      <h1>Farmaceltas</h1>
+      <p>Conheça mais sobre seus medicamentos</p>
+      <button @click="navigateTo('search')">BUSQUE AQUI!</button>
+    </section>
+
+    <section class="banner">
+      <img
+          src= ""
+          alt="Farmacêutico"
+          class="banner-image"
+      />
+      <div class="banner-text">
+        <p>
+          Apoie os <strong>FarmaCeltas</strong> e leve conhecimento de qualidade para toda
+          <strong class="highlight">população brasileira.</strong>
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>Um remédio para seu conhecimento</h2>
+      <p>Acabaram de sair da caixinha</p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Cuidados para a pele</h3>
+          <p>Lorena A. - UFMG</p>
+        </div>
+        <div class="card">
+          <h3>Vídeo 1</h3>
+          <p>Título - Descrição</p>
+        </div>
+        <div class="card">
+          <h3>Quizz 1</h3>
+          <p>Título - Descrição</p>
+        </div>
+        <div class="card">
+          <h3>Artigo 2</h3>
+          <p>Título - Descrição</p>
+        </div>
+        <div class="card">
+          <h3>Vídeo 2</h3>
+          <p>Título - Descrição</p>
+        </div>
+        <div class="card">
+          <h3>Quizz 2</h3>
+          <p>Título - Descriçãon</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'LandingBody',
+  methods: {
+    navigateTo(destination) {
+
+    },
+    simulateNav(item) {
+
+    }
+  }
+};
+</script>
+
+
+<style scoped>
+.landing-body {
+  font-family: Arial, sans-serif;
+}
+
+.destaque {
+  background-color: #c8f0d2;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.destaque h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.destaque p {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.destaque button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 600px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+.banner-text p {
+  font-size: 18px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.banner-text .highlight {
+  color: green;
+}
+
+.content-section {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: left ;
+  color: #000;
+
+}
+
+.content-section h2 {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.content-section p {
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.card {
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card h3,
+.card p {
+  color: #000;
+}
+
+.card:hover {
+  background: #eaeaea;
+}
+</style>
