@@ -84,7 +84,12 @@ const fetchContent = async () => {
     contentItems.value = [...posts, ...quizzes].sort((a, b) => b.id - a.id).slice(0, 6)
   } catch (err) {
     console.error('Erro ao carregar conteúdo:', err)
-    error.value = 'Não foi possível carregar o conteúdo. Por favor, tente novamente.'
+    if (err.response?.status === 401) {
+      error.value = 'Por favor, faça login para ver o conteúdo completo.'
+    } else {
+      error.value = 'Não foi possível carregar o conteúdo. Por favor, tente novamente mais tarde.'
+    }
+    contentItems.value = [] // Clear any existing items
   } finally {
     loading.value = false
   }
