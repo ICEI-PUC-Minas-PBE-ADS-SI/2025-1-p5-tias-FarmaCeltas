@@ -24,30 +24,18 @@
       <h2>Um remédio para seu conhecimento</h2>
       <p>Acabaram de sair da caixinha</p>
 
-      <div class="cards">
-        <div class="card">
-          <h3>Cuidados para a pele</h3>
-          <p>Lorena A. - UFMG</p>
-        </div>
-        <div class="card">
-          <h3>Vídeo 1</h3>
-          <p>Título - Descrição</p>
-        </div>
-        <div class="card">
-          <h3>Quizz 1</h3>
-          <p>Título - Descrição</p>
-        </div>
-        <div class="card">
-          <h3>Artigo 2</h3>
-          <p>Título - Descrição</p>
-        </div>
-        <div class="card">
-          <h3>Vídeo 2</h3>
-          <p>Título - Descrição</p>
-        </div>
-        <div class="card">
-          <h3>Quizz 2</h3>
-          <p>Título - Descriçãon</p>
+      <div v-if="loading" class="loading">
+        Carregando conteúdo...
+      </div>
+
+      <div v-else-if="error" class="error">
+        {{ error }}
+      </div>
+
+      <div v-else class="cards">
+        <div v-for="item in contentItems" :key="item.id" class="card" @click="navigateToItem(item)">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.type === 'quiz' ? 'Quiz' : item.type === 'video' ? 'Vídeo' : 'Artigo' }}</p>
         </div>
       </div>
     </section>
@@ -55,23 +43,69 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 import homeImg from '@/assets/homeimg.svg'
-</script>
+import api from '../api/axios'
 
-<script>
-export default {
-  name: 'LandingBody',
-  methods: {
-    navigateTo(destination) {
+const router = useRouter()
+const loading = ref(true)
+const error = ref(null)
+const contentItems = ref([])
 
-    },
-    simulateNav(item) {
+const fetchContent = async () => {
+  try {
+    loading.value = true
+    error.value = null
 
-    }
+    // Fetch both posts and quizzes
+    const [postsResponse, quizzesResponse] = await Promise.all([
+      api.get('/posts'),
+      api.get('/quizzes')
+    ])
+
+    // Transform posts into card format
+    const posts = postsResponse.data.data.map(post => ({
+      id: post.id,
+      title: post.title,
+      type: post.type,
+      contentType: 'post'
+    }))
+
+    // Transform quizzes into card format
+    const quizzes = quizzesResponse.data.data.map(quiz => ({
+      id: quiz.id,
+      title: quiz.title,
+      type: 'quiz',
+      contentType: 'quiz'
+    }))
+
+    // Combine and sort by most recent (assuming IDs are sequential)
+    contentItems.value = [...posts, ...quizzes].sort((a, b) => b.id - a.id).slice(0, 6)
+  } catch (err) {
+    console.error('Erro ao carregar conteúdo:', err)
+    error.value = 'Não foi possível carregar o conteúdo. Por favor, tente novamente.'
+  } finally {
+    loading.value = false
   }
-};
-</script>
+}
 
+const navigateToItem = (item) => {
+  if (item.contentType === 'quiz') {
+    router.push(`/quizzes/${item.id}`)
+  } else {
+    router.push(`/posts/${item.id}`)
+  }
+}
+
+const navigateTo = (destination) => {
+  router.push(`/${destination}`)
+}
+
+onMounted(() => {
+  fetchContent()
+})
+</script>
 
 <style scoped>
 .landing-body {
@@ -113,7 +147,6 @@ export default {
   background-color: #f9f9f9;
 }
 
-
 .banner-image {
   width: 80%;
   max-width: 640px; /* ajuste gradual */
@@ -124,7 +157,6 @@ export default {
   object-fit: cover;
   box-shadow: 0 2px 12px rgba(0,0,0,0.07);
 }
-
 
 .banner-text p {
   font-size: 18px;
@@ -141,7 +173,6 @@ export default {
   background-color: #fff;
   text-align: left ;
   color: #000;
-
 }
 
 .content-section h2 {
@@ -162,6 +193,15 @@ export default {
   margin: 0 auto;
 }
 
+.loading, .error {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.error {
+  color: #cc0000;
+}
 
 .card {
   background: #f7f7f7;
@@ -169,14 +209,26 @@ export default {
   padding: 20px;
   cursor: pointer;
   transition: 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 120px;
 }
 
-.card h3,
-.card p {
+.card h3 {
   color: #000;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.card p {
+  color: #666;
+  font-size: 0.9rem;
 }
 
 .card:hover {
   background: #eaeaea;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 </style>
