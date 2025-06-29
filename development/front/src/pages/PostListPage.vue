@@ -23,7 +23,7 @@
           <div v-else class="post-text">
             {{ post.content.substring(0, 200) }}...
             <br />
-            <a :href="`/posts/${post.id}`" class="post-link">Ler mais</a>
+            <a :href="/posts/${post.id}" class="post-link">Ler mais</a>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@ const meta = ref({
 
 const fetchPosts = async (page = 1) => {
   try {
-    const response = await api.get(`/posts?page=${page}`)
+    const response = await api.get(/posts?page=${page})
     posts.value = response.data.data
     meta.value = {
       current_page: response.data.current_page,
@@ -74,19 +74,22 @@ onMounted(() => {
 .post-wrapper {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   min-height: 100vh;
   background-color: #d6f5d6;
-  padding: 2rem;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
 }
 
 .post-box {
-  background-color: white;
+  background-color: #ffffff;
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .post-box h1 {
@@ -105,16 +108,16 @@ onMounted(() => {
 
 .post-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
 
 .post-card {
-  border: 2px solid #ccc;
+  border: 2px solid #e0e0e0;
   border-radius: 12px;
   padding: 1rem;
-  transition: 0.2s ease;
   background-color: #fefefe;
+  transition: 0.2s ease;
 }
 
 .post-card:hover {
@@ -123,7 +126,7 @@ onMounted(() => {
 }
 
 .post-card h2 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #006600;
   margin-bottom: 0.5rem;
 }
@@ -141,13 +144,14 @@ onMounted(() => {
 }
 
 .pagination {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .pagination button {
-  padding: 0.6rem 1.2rem;
+  padding: 0.6rem 1.4rem;
   background-color: #eee;
   border: none;
   border-radius: 8px;
