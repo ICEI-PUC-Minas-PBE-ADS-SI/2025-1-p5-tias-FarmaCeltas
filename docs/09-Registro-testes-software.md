@@ -5,12 +5,15 @@
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 O Registro de Testes documenta a execução prática dos casos de teste descritos. Esta seção comprova, com evidências, que os testes foram realizados por membros da equipe, conforme metodologia descrita (Metodologia).
 
-**Importância do Registro**
-- Rastreabilidade: Mostra quais funcionalidades passaram pelos testes.
-- Evidência de conformidade: As capturas de tela ou vídeos servem como prova para stakeholders.
-- Validação cruzada: Garantia de qualidade, pois outro membro realiza o teste.
+O registro de testes de software é uma etapa essencial no ciclo de desenvolvimento do projeto FarmaCeltas, pois garante que todas as funcionalidades implementadas foram verificadas na prática e cumprem os requisitos definidos. Esse registro serve para documentar, de forma organizada, as evidências dos testes realizados, oferecendo rastreabilidade e transparência para a equipe e stakeholders.
 
-Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano de testes de software</a>, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos. Observação: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso.
+<br>
+
+A realização e documentação dos testes permite identificar pontos fortes e eventuais falhas na aplicação antes de sua disponibilização ao público, possibilitando correções que aumentam a qualidade e a confiabilidade do sistema. Além disso, contribui diretamente para a melhoria contínua do projeto, pois gera dados valiosos para orientar futuras iterações de desenvolvimento.
+
+Em resumo, este registro demonstra que o sistema foi testado a partir do ponto de vista do usuário, validando que os fluxos principais de cadastro, login, navegação em conteúdos educativos, quizzes e interação via chat funcionam corretamente. Assim, reforça o compromisso do time com a entrega de uma solução estável, segura e eficaz para promover a educação sobre o uso seguro de medicamentos.
+
+
 
 | **Caso de teste** 	| **CT-001 – Cadastrar perfil** 	|
 |:---:	|:---:	|
