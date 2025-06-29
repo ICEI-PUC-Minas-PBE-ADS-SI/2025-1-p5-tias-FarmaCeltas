@@ -13,15 +13,41 @@ Em resumo, este registro demonstra que o sistema foi testado a partir do ponto d
 
 
 
-| **Caso de teste** 	| **CT-001 – Cadastrar perfil** 	|
+| **Caso de teste** 	| **CT-001 – Cadastrar Usuário** 	|
 |:---:	|:---:	|
-| Requisito associado | RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Registro de evidência | [www.teste.com.br/drive/ct-01](http://www.teste.com.br/drive/ct-01) |
+| Requisito associado | RF-001 - Permitir cadastro de usuários. |
+| Registro de evidência | https://github.com/user-attachments/assets/c8e2646a-f09e-42e1-82af-ca78db99f7f4 |
 
-| **Caso de teste** 	| **CT-002 – Realizar login** 	|
+| **Caso de teste** 	| **CT-002 – Efetuar login** 	|
 |:---:	|:---:	|
-| Requisito associado | RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login. |
-| Registro de evidência | [www.teste.com.br/drive/ct-02](http://www.teste.com.br/drive/ct-02) |
+| Requisito associado | RF-002 - Permitir sistema de login. |
+| Registro de evidência | https://github.com/user-attachments/assets/e535c3c2-7fab-491b-b7ce-cd2539457df2 |
+
+| **Caso de teste** 	| **CT-003 – Acessar vídeos educativos** 	|
+|:---:	|:---:	|
+| Requisito associado | RF-003 - Disponibilizar vídeos educativos. |
+| Registro de evidência |  https://github.com/user-attachments/assets/bb7d10a1-3a8a-4242-a27c-5063f7636795|
+
+| **Caso de teste** 	| **CT-004 – Realizar quizzes interativos** 	|
+|:---:	|:---:	|
+| Requisito associado | RF-004 - Disponibilizar quizzes interativos para testar o aprendizado dos usuários. |
+| Registro de evidência | https://github.com/user-attachments/assets/c4d880a8-0691-452f-8fdc-f8efe7da9e0d |
+
+| **Caso de teste** 	| **CT-005 – Consultar materiais escritos** 	|
+|:---:	|:---:	|
+| Requisito associado | RF-005 - Disponibilizar materiais escritos validados cientificamente. |
+| Registro de evidência | https://github.com/user-attachments/assets/eb36987a-70e2-405a-8027-e6e42e7fdea6 |
+
+| **Caso de teste** 	| **CT-006 – Enviar perguntas ao ChatGPT** 	|
+|:---:	|:---:	|
+| Requisito associado | RF-006 - Permitir que o usuário faça perguntas respondidas pelo ChatGPT. |
+| Registro de evidência | https://github.com/user-attachments/assets/eb36987a-70e2-405a-8027-e6e42e7fdea6 |
+
+| **Caso de teste** 	| **CT-007 – Gerenciar quizzes e materiais (admin)** 	|
+|:---:	|:---:	|
+| Requisito associado | RF-007 - Permitir que administradores gerenciem quizzes e materiais educativos. |
+| Registro de evidência | https://github.com/user-attachments/assets/eb36987a-70e2-405a-8027-e6e42e7fdea6 |
+
 
 
 > **Links úteis**:
