@@ -40,6 +40,7 @@
 </template>
 
 <script setup>
+/* Este componente renderiza um quiz interativo com feedback de respostas */
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import api from '../api/axios'
@@ -115,6 +116,12 @@ onMounted(() => {
 
 .option-item input[type="radio"] {
   display: none;
+}
+
+.feedback-box {
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* Quando selecionado, preenche TODO o label com verde claro */
