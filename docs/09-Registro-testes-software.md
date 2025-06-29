@@ -18,6 +18,8 @@ Em resumo, este registro demonstra que o sistema foi testado a partir do ponto d
 | Requisito associado | RF-001 - Permitir cadastro de usuários. |
 | Registro de evidência | https://github.com/user-attachments/assets/c8e2646a-f09e-42e1-82af-ca78db99f7f4 |
 
+
+
 | **Caso de teste** 	| **CT-002 – Efetuar login** 	|
 |:---:	|:---:	|
 | Requisito associado | RF-002 - Permitir sistema de login. |
@@ -55,7 +57,11 @@ Em resumo, este registro demonstra que o sistema foi testado a partir do ponto d
 
 ## Avaliação
 
-Discorra sobre os resultados do teste, ressaltando os pontos fortes e fracos identificados na solução. Comente como o grupo pretende abordar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Durante o processo de desenvolvimento da aplicação FarmaCeltas, foram realizados testes com foco na funcionalidade, usabilidade e desempenho do sistema, avaliando a eficácia das principais ferramentas oferecidas: integração com vídeos educativos, quizzes interativos, canal de perguntas com ChatGPT e materiais escritos com base científica.
+
+Os pontos fortes identificados incluem a boa responsividade da interface, que se adaptou bem, e a experiência intuitiva do usuário durante a navegação, especialmente nos quizzes interativos, que se mostraram eficazes na fixação dos conteúdos. O canal de perguntas com o ChatGPT também apresentou resultados satisfatórios, oferecendo respostas rápidas e claras para dúvidas comuns sobre medicamentos, o que validou sua utilidade como recurso de apoio.
+
+Entretanto, alguns pontos fracos também foram observados. Em determinados momentos, o sistema apresentou lentidão no carregamento de vídeos integrados via API, especialmente em conexões mais instáveis. Além disso, o módulo de perguntas e respostas, apesar de funcional, demonstrou limitações em compreender contextos muito específicos ou perguntas formuladas com ambiguidade, o que pode comprometer a confiança do usuário. Também foi percebida a ausência de um mecanismo de feedback imediato para relatar respostas insatisfatórias da IA.
 
 > **Links úteis**:
 > - [Ferramentas de Teste para JavaScript](https://geekflare.com/javascript-unit-testing/)
