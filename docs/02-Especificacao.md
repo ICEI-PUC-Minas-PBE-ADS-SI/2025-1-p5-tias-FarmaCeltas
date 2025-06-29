@@ -51,7 +51,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 ## Requisitos
 
-As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade dos requisitos, aplique uma técnica de priorização e detalhe como essa técnica foi aplicada.
+As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. A priorização dos mesmos foi baseada na relevância para o usuário final e facilidade de desenvolvimento.
 
 ### Requisitos funcionais
 
@@ -69,7 +69,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 ### Requisitos não Funcionais
 | RNF   | Requisitos Não Funcionais                                                                                         |
 | ----- | ------------------------------------------------------------------------------------------------------------------ |
-| RNF 01| A aplicação será desenvolvida com HTML 5, CSS e Javascript e C#.                                                   |
+| RNF 01| A aplicação será desenvolvida com PHP, Vue.JS, Javascript, HTML 5 e CSS.                                           |
 | RNF 02| O projeto deve seguir a Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018.                        |
 | RNF 03| A aplicação fará uso do idioma oficial do Brasil, PT-BR.                                                           |
 | RNF 04| A disponibilidade da aplicação será de 24x7.                                                                       |
@@ -112,22 +112,21 @@ Ferramenta de inteligência artificial integrada à plataforma, que processa dú
 ### Consulta de Dúvidas sobre Medicamento
 O usuário pode fazer perguntas sobre medicamentos e receber respostas informativas.
 
-- Inclui:
-      Histórico de Perguntas e Respostas: o usuário pode revisar perguntas feitas anteriormente, o que ajuda a fixar aprendizados e evitar repetições.
+Inclui:
+- Histórico de Perguntas e Respostas: o usuário pode revisar perguntas feitas anteriormente, o que ajuda a fixar aprendizados e evitar repetições.
 
 ### Realização de Quizzes Interativos
 O usuário participa de quizzes para testar seus conhecimentos e aprender de forma lúdica.
 
-- Inclui:
-      Acesso a Materiais Específicos: após responder aos quizzes, o usuário pode acessar conteúdos complementares.
-- Inclui:
-     Acesso a Vídeos Educativos: vídeos ajudam na assimilação de temas de forma mais visual e acessível.
+Inclui:
+- Acesso a Materiais Específicos: após responder aos quizzes, o usuário pode acessar conteúdos complementares.
+- Acesso a Vídeos Educativos: vídeos ajudam na assimilação de temas de forma mais visual e acessível.
 
 ### Cadastro e Login
 Funcionalidade essencial para personalizar a experiência e registrar o progresso do usuário.
 
-- Inclui:
-Monitoramento do Progresso nos Quizzes: permite ao usuário acompanhar sua evolução ao longo do tempo.
+Inclui:
+- Monitoramento do Progresso nos Quizzes: permite ao usuário acompanhar sua evolução ao longo do tempo.
 
 ### Gerenciar o envio e recebimento de perguntas no ChatGPT 
 O administrador revisa, organiza e envia perguntas feitas pelos usuários ao ChatGPT, podendo ainda filtrar ou moderar os conteúdos.
