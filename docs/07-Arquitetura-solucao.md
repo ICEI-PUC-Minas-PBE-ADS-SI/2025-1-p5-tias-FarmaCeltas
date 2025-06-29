@@ -18,7 +18,7 @@ O diagrama de classes ilustra graficamente a estrutura do software e como cada u
 
 ##  Modelo de dados
 
-O desenvolvimento da solução FarmaCeltas exige a construção de uma base de dados robusta e integrada, capaz de sustentar o cadastro, a recuperação e o controle das informações relacionadas às funcionalidades e processos definidos. Essa estrutura permitirá o gerenciamento eficaz dos usuários, dos conteúdos educativos (vídeos, materiais, quizzes), das interações via ChatGPT, bem como o controle de registros operacionais, como o monitoramento da temperatura.
+O desenvolvimento da solução FarmaCeltas exige a construção de uma base de dados robusta e integrada, capaz de sustentar o cadastro, a recuperação e o controle das informações relacionadas às funcionalidades e processos definidos. Essa estrutura permitirá o gerenciamento eficaz dos usuários, dos conteúdos educativos (vídeos, materiais, quizzes), das interações via ChatGPT, bem como o controle de registros operacionais, como o monitoramento da temperatura (melhorias futuras).
 
 Com base na notação de Diagrama Entidade-Relacionamento (DER), foi elaborado um modelo conceitual unificado, contemplando todas as entidades, atributos e relacionamentos identificados nas etapas de levantamento dos processos de negócio. Este DER foi desenvolvido utilizando ferramentas específicas de modelagem, assegurando a padronização e a clareza dos elementos representados.
 
@@ -136,7 +136,7 @@ CREATE TABLE ia_data (
 
 | **Dimensão**   | **Tecnologia**  |
 | ---            | ---             |
-| Front-end      | HTML + CSS + JS + React |
+| Front-end      | HTML + CSS + JS + Vue.JS |
 | Back-end       | PHP         |
 | SGBD           | PostgreSQL           |
 | Deploy         | Vercel          |
@@ -144,7 +144,7 @@ CREATE TABLE ia_data (
 
 ## Hospedagem
 
-A aplicação deve ser hospedada na plataforma Vercel, que oferece integração contínua com o GitHub e suporte nativo para aplicações front-end modernas, especialmente aquelas desenvolvidas com React. O front-end foi implantado diretamente a partir do repositório principal do projeto, utilizando a estrutura de build automática da plataforma, o que facilitou o processo de entrega contínua.
+A aplicação deve ser hospedada na plataforma Vercel, que oferece integração contínua com o GitHub e suporte nativo para aplicações front-end modernas, especialmente aquelas desenvolvidas com Vue.JS. O front-end foi implantado diretamente a partir do repositório principal do projeto, utilizando a estrutura de build automática da plataforma, o que facilitou o processo de entrega contínua.
 
 Já o back-end e o banco de dados foram desenvolvidos localmente em ambiente Docker e, posteriormente, planejados para migração futura para uma plataforma de hospedagem como Render, Heroku ou Railway, visando maior escalabilidade e integração com o PostgreSQL.
 
