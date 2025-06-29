@@ -64,6 +64,3 @@ A seguir, são apresentados indicadores essenciais para avaliar a eficácia dos 
 | Percentual de entregas dentro do prazo  | Avaliar eficiência logística das entregas| Mede o percentual de entregas realizadas dentro do prazo previsto        | Tabela Entregas      | (entregas no prazo / total entregas realizadas) * 100        |
 | Quantidade mensal de papel consumido    | Monitorar redução no uso de papel        | Mede a quantidade total mensal de papel utilizado pela farmácia          | Controle Impressões  | Quantidade absoluta mensal de papel usado                    |
 | Índice de satisfação dos funcionários   | Avaliar impacto interno das mudanças     | Mede a satisfação dos funcionários com as melhorias implementadas        | Pesquisa Interna     | (funcionários satisfeitos / total de funcionários entrevistados) * 100 |
-
-> **Observação:**  
-> Todas as informações necessárias para o cálculo desses indicadores deverão estar claramente especificadas no diagrama de classes do projeto, garantindo a viabilidade da coleta e análise dos dados propostos.
