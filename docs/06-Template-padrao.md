@@ -21,16 +21,8 @@ No desenvolvimento do site informativo da Farmaceltas, a responsividade foi cons
 # Iconografia:
 A escolha da iconografia para um site de compras vai além da estética — ela é essencial para facilitar a navegação, destacar funções e reforçar a identidade da marca. O primeiro passo é entender o público-alvo, considerando idade, familiaridade com tecnologia e preferências visuais. Para um público variado, ícones simples e de fácil compreensão, preferencialmente com texto, funcionam melhor.
 
-Depois, é preciso identificar todas as seções do site que precisam de representação visual, como categorias de produtos (medicamentos, beleza, higiene, etc.) e funcionalidades (carrinho, busca, menu, etc.). Cada item deve ter um ícone claro e coerente com sua função.
+Depois, é preciso identificar todas as seções do site que precisam de representação visual, como categorias de produtos (medicamentos, beleza, higiene, etc.) e funcionalidades (busca, conteúdo, menu, etc.). Cada item deve ter um ícone claro e coerente com sua função.
 
-Por fim, o estilo visual dos ícones deve combinar com o design do site. Os símbolos escolhidos — como frascos para remédios ou maçãs para alimentos — devem ser testados para garantir que os usuários os entendam facilmente.
+Por fim, o estilo visual dos ícones deve combinar com o design do site. Os símbolos escolhidos devem ser testados para garantir que os usuários os entendam facilmente.
 
 ![image](https://github.com/user-attachments/assets/051074c2-3fe6-4404-94a2-7751cd48f05b)
-
-
-> **Links úteis**:
->
-> - [CSS website layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website page layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect liquid layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and why icons improve your web design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
