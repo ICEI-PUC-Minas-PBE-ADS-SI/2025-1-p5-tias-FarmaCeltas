@@ -91,6 +91,32 @@ Atualizado em: 11/05/2025
 | Rafael Bernardoni Gomes              | Preenchimento de APC e partes 5 e 6 do github     | 06/04/2025     | 11/05/2025 | ✔️       |11/05/2025      |
 | Vinicius do Amaral Fonseca Filho     | Prótotipação de telas                             | 06/04/2025     | 11/05/2025 | ✔️       |10/05/2025      |
 
+#### Sprint 4
+
+Atualizado em: 08/06/2025
+
+| Responsável                          | Tarefa/Requisito                                  | Iniciado em    | Prazo      | Status   | Terminado em    |
+| :----                                |    :----                                          |      :----:    | :----:     | :----:   | :----:          |
+| Gabriel Assuncao Costa               | Conexão backend/banco de dados/frontend e deply   | 02/06/2025     | 08/06/2025 | ✔️       |08/06/2025      |
+| Gabriela Maria da Silva              | Frontend da Landing page e parte de API REST      | 01/06/2025     | 08/06/2025 | ✔️       |08/06/2025      |
+| Krycia Figueiredo Azevedo            | Preencher Tamplete, frontend da PostPage          | 03/06/2025     | 08/06/2025 | ✔️       |08/06/2025      |
+| Marcelo Henrique Passini Ferreira    | QuizzListPage e QuizzControler e slides           | 03/06/2025     | 08/06/2025 | ✔️       |08/06/2025      |
+| Rafael Bernardoni Gomes              | Frontend de Cadastro de Usuario                   | 02/06/2025     | 08/06/2025 | ✔️       |08/06/2025      |
+| Vinicius do Amaral Fonseca Filho     | Preenchimento do github                           | 01/06/2025     | 08/06/2025 | ✔️       |08/06/2025      |
+
+#### Sprint 5
+
+Atualizado em: 29/06/2025
+
+| Responsável                          | Tarefa/Requisito                                  | Iniciado em    | Prazo      | Status   | Terminado em    |
+| :----                                |    :----                                          |      :----:    | :----:     | :----:   | :----:          |
+| Gabriel Assuncao Costa               | Conexão backend/banco de dados/frontend e deply   | 20/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Gabriela Maria da Silva              | Frontend da Landing page e parte de API REST      | 22/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Krycia Figueiredo Azevedo            | Preencher Tamplete, frontend da PostPage          | 21/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Marcelo Henrique Passini Ferreira    | QuizzListPage e QuizzControler e slides           | 23/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Rafael Bernardoni Gomes              | Frontend de Cadastro de Usuario                   | 24/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Vinicius do Amaral Fonseca Filho     | Preenchimento do github                           | 21/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+
 
 
 
