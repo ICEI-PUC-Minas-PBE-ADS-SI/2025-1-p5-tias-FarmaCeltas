@@ -1,3 +1,12 @@
 # Conclusão
 
-Apresente, aqui, a conclusão do trabalho, que deve conter uma síntese dos principais resultados obtidos com a melhoria dos processos, uma discussão das limitações da solução proposta e sugestões de novas linhas de estudo.
+O projeto FarmaCeltas foi desenvolvido com o intuito de oferecer uma solução tecnológica educativa capaz de mitigar os riscos relacionados à automedicação e ao uso incorreto de medicamentos, promovendo o acesso da população a conteúdos científicos acessíveis e confiáveis. Através da combinação de vídeos educativos, quizzes interativos, materiais escritos com embasamento técnico e um canal de dúvidas integrado ao ChatGPT, a aplicação se mostrou uma ferramenta promissora na disseminação de informações de qualidade sobre saúde e farmacologia.
+
+Entre os principais resultados obtidos, destaca-se a criação de um ambiente digital intuitivo e inclusivo, que atende perfis variados da população – de jovens adultos a idosos – e facilita o aprendizado sobre temas farmacêuticos. A integração de diferentes formatos de conteúdo permitiu ampliar o alcance da informação e promover uma experiência de aprendizado mais dinâmica e eficaz. Além disso, a colaboração com a Drogaria Alterosas fortaleceu a confiabilidade dos conteúdos disponibilizados, contribuindo para uma maior aceitação e engajamento da comunidade local.
+
+Contudo, algumas limitações ainda precisam ser consideradas. A dependência da conexão com a internet pode restringir o acesso de parte da população, especialmente em áreas com baixa conectividade. A necessidade de curadoria contínua do conteúdo, feita por profissionais da saúde, também exige um esforço constante de atualização e validação científica. Outro ponto de atenção é a limitação da IA (ChatGPT), que, embora útil, não substitui a orientação clínica de um profissional da saúde e pode, eventualmente, não compreender completamente contextos específicos.
+
+Como sugestões para estudos e melhorias futuras, recomenda-se a implementação de funcionalidades de acessibilidade (como leitura em voz alta e contraste adaptado), a personalização do conteúdo com base no perfil do usuário, e a expansão da base de conhecimento com apoio de instituições de ensino. Além disso, seria interessante estudar o uso de inteligência artificial para identificar padrões de dúvidas e gerar relatórios que possam auxiliar na formulação de políticas de educação em saúde.
+
+O FarmaCeltas representa um avanço significativo na interseção entre tecnologia, educação e saúde pública, sendo uma iniciativa que, ao evoluir, tem potencial de causar um impacto ainda maior na conscientização e no bem-estar da população.
+
