@@ -34,23 +34,39 @@ A configuração e o padrão do projeto foi dado pelas seguintes convenções:
 
 ###  Divisão de papéis
 
-> Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
 
 #### Sprint 1
-- Repositório no GitHub / Preenchimento do README / Preenchimento da Documentação de Contexto / Preenchimento da Especificação do Projeto / Preenchimento das Referências / Inserir a URL do repositório Git nos slides e nos comentários de envio da tarefa: Gabriel Assuncao Costa e Rafael Bernardoni Gomes
-- Planejamento do projeto: Marcelo Henrique Passini Ferreira
-- Preenchimento do relatório: Introdução e participantes do projeto: Gabriela Maria da Silva
-  Slides e acompanhamento de projeto: Krycia Figueiredo Azevedo e Vinicius do Amaral Fonseca Filho
+- Repositório no GitHub / Preenchimento do README / Preenchimento da Documentação de Contexto / Preenchimento da Especificação do Projeto / Preenchimento das Referências / Inserir a URL do repositório Git nos slides e nos comentários de envio da tarefa: **Gabriel Assuncao Costa e Rafael Bernardoni Gomes**
+- Planejamento do projeto: **Marcelo Henrique Passini Ferreira**
+- Preenchimento do relatório: **Gabriela Maria da Silva**
+- Slides e acompanhamento de projeto: **Krycia Figueiredo Azevedo e Vinicius do Amaral Fonseca Filho**
 
 #### Sprint 2
-- _Scrum master_: Marcelo Henrique Passini Ferreira
-- Desenvolvedor _front-end_: Vinicius do Amaral Fonseca Filho
-- Desenvolvedor _back-end_: Gabriel Assuncao Costa
-- Testes: Krycia Figueiredo Azevedo e Rafael Bernardoni Gomes
+- Modelagem AS-IS e TO-BE do processo 1: **Marcelo Henrique Passini Ferreira**
+- Modelagem AS-IS e TO-BE do processo 2: **Gabriela Maria da Silva** 
+- Apresentação do projeto: **Vinicius do Amaral Fonseca Filho**
+- Preenchimento Github: **Gabriel Assuncao Costa**
+- Documentação do projeto: **Rafael Bernardoni Gomes**
+- Relatório APC: **Krycia Figueiredo Azevedo**
+
+#### Sprint 3
+- Planejamento e slides: **Marcelo Henrique Passini Ferreira**
+- Jornada de usuários: **Gabriela Maria da Silva** 
+- Prótotipação de telas: **Vinicius do Amaral Fonseca Filho**
+- Projeto do banco de dados e Scripts: **Gabriel Assuncao Costa**
+- Preenchimento de APC e partes 5 e 6 do Github: **Rafael Bernardoni Gomes**
+- Diagramas, ER, DER e Scripts: **Krycia Figueiredo Azevedo**
+
+#### Sprint 4
+- QuizzListPage / QuizControler e slides: **Marcelo Henrique Passini Ferreira**
+- Frontend da Landing page e parte da API REST de Gerenciamento de conteúdo: **Gabriela Maria da Silva** 
+- Prótotipação de telas: **Vinicius do Amaral Fonseca Filho**
+- Conexão backend/banco de dados/frontend e deploy: **Gabriel Assuncao Costa**
+- Frontend do Cadastro de Usuario: **Rafael Bernardoni Gomes**
+- Preencher o template APC, PostPage.vue / QuizzPage.vue e ChatComplement.php: **Krycia Figueiredo Azevedo**
+
 
 ###  Quadro de tarefas
-
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme o exemplo abaixo.
 
 #### Sprint 1
 
@@ -152,10 +168,10 @@ A realização do projeto foi dada pelo uso das seguintes ferramentas:
 
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | [http://.... ](https://github.com)     |
-| Documentos do projeto               | GitHub                             | [http://.... ](https://github.com)     |
+| Repositório de código fonte         | GitHub                             | [http://.... ](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-FarmaCeltas/tree/main/development)     |
+| Documentos do projeto               | GitHub                             | [http://.... ](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-FarmaCeltas/tree/main/docs)     |
 | Projeto de interface                | Figma                              | [http://.... ](https://www.figma.com/) |
-| Gerenciamento do projeto            | GitHub Projects                    | [http://.... ](https://github.com)     |
+| Gerenciamento do projeto            | GitHub Projects                    | [http://.... ](https://github.com/orgs/ICEI-PUC-Minas-PBE-ADS-SI/projects/27)     |
 | Hospedagem                          | Vercel                             | [http://.... ](https://vercel.com/)    |
 
 Justificativas para as ferramentas adotadas:
