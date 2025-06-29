@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "FarmaEduca: Plataforma Educativa sobre Medicamentos e Saúde"
+title: "FarmaCeltas: Plataforma Educativa sobre Medicamentos e Saúde"
 authors:
   - family-names: Costa
     given-names: Gabriel Assuncao
@@ -9,11 +9,13 @@ authors:
     given-names: Krycia Figueiredo
   - family-names: Ferreira
     given-names: Marcelo Henrique Passini
-  - family-names: Vieira de Vasconcelos
+ - family-names: Gomes
+    given-names: Rafael Bernardoni
+- family-names: Vieira de Vasconcelos
     given-names: Amália Soares
     name-suffix: Professor
     affiliation: PUC Minas
 repository-code: https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-FarmaCeltas/
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2024-08-01
+date-released: 2025-06-29
