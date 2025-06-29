@@ -43,12 +43,12 @@ Em resumo, este registro demonstra que o sistema foi testado a partir do ponto d
 | **Caso de teste** 	| **CT-006 – Enviar perguntas ao ChatGPT** 	|
 |:---:	|:---:	|
 | Requisito associado | RF-006 - Permitir que o usuário faça perguntas respondidas pelo ChatGPT. |
-| Registro de evidência | https://github.com/user-attachments/assets/eb36987a-70e2-405a-8027-e6e42e7fdea6 |
+| Registro de evidência | PENDENTE |
 
 | **Caso de teste** 	| **CT-007 – Gerenciar quizzes e materiais (admin)** 	|
 |:---:	|:---:	|
 | Requisito associado | RF-007 - Permitir que administradores gerenciem quizzes e materiais educativos. |
-| Registro de evidência | https://github.com/user-attachments/assets/eb36987a-70e2-405a-8027-e6e42e7fdea6 |
+| Registro de evidência | PENDENTE |
 
 
 
