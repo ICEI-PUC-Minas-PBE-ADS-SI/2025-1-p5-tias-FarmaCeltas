@@ -172,7 +172,7 @@ A realização do projeto foi dada pelo uso das seguintes ferramentas:
 | Documentos do projeto               | GitHub                             | [http://.... ](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-FarmaCeltas/tree/main/docs)     |
 | Projeto de interface                | Figma                              | [http://.... ](https://www.figma.com/) |
 | Gerenciamento do projeto            | GitHub Projects                    | [http://.... ](https://github.com/orgs/ICEI-PUC-Minas-PBE-ADS-SI/projects/27)     |
-| Hospedagem                          | Vercel                             | [http://.... ](https://vercel.com/)    |
+| Hospedagem                          | Vercel                             | [http://.... ](http://farmaceltasvm.brazilsouth.cloudapp.azure.com:5173/)    |
 
 Justificativas para as ferramentas adotadas:
 
