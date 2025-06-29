@@ -3,11 +3,11 @@
 Apresenta o controle de temperatura na farmácia com foco em oportunidades de melhoria para reduzir o uso de papel, minimizar erros manuais e melhorar a organização dos registros.  
 Na versão atual (AS-IS), o processo é realizado por meio de formulário impresso, com riscos de retrabalho e dificuldades na armazenagem e correções.  
 
-![Processo A-IS](../images/%5BFarmaceltas%5D%20Sprint%202%20-%20AS%20IS%3A%3A%20Controle%20de%20temperatura.png "PROCESSO AS-IS")
+![Processo A-IS](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-FarmaCeltas/blob/eddfb949f473e99857f08a3c25f4a225a1a69b5c/docs/images/controle_temperatura_AS_IS.png)
 
 Na proposta (TO-BE), o registro passa a ser digital, utilizando, uma planilha do Excel por exemplo, permitindo correções imediatas, assinatura digital pelos farmacêuticos e armazenamento seguro e sustentável dos registros.
 
-![Processo TO-BE](../images/%5BFarmaceltas%5D%20Sprint%202%20-%20TO%20BE%3A%3A%20Controle%20de%20temperatura.png "PROCESSO TO-BE")
+![Processo TO-BE](https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-FarmaCeltas/blob/eddfb949f473e99857f08a3c25f4a225a1a69b5c/docs/images/%5BFarmaceltas%5D%20Sprint%202%20-%20TO%20BE%20Controle%20de%20temperatura.png)
 
 
 #### Detalhamento das atividades
