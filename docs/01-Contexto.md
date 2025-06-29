@@ -36,10 +36,10 @@ O público-alvo do projeto FarmaCeltas é composto pela população geral, princ
 
 Perfis comuns entre os usuários da aplicação são:
 
--Pessoas que possuem dúvidas frequentes sobre o uso correto de medicamentos e recorrem a fontes não qualificadas.
--Idosos que fazem uso constante de vários medicamentos e querem maiores informações sobre eles.
--Jovens adultos que buscam informações rápidas e confiáveis, especialmente aqueles familiarizados com a tecnologia.
--Adultos responsáveis pelo cuidado familiar, que buscam informações claras para garantir a segurança e saúde familiar.
+- Pessoas que possuem dúvidas frequentes sobre o uso correto de medicamentos e recorrem a fontes não qualificadas.
+- Idosos que fazem uso constante de vários medicamentos e querem maiores informações sobre eles.
+- Jovens adultos que buscam informações rápidas e confiáveis, especialmente aqueles familiarizados com a tecnologia.
+- Adultos responsáveis pelo cuidado familiar, que buscam informações claras para garantir a segurança e saúde familiar.
 
 Ao compreender esses perfis, a aplicação será projetada com uma interface intuitiva, linguagem clara e conteúdos acessíveis para atender às expectativas deste público, oferecendo ferramentas educativas para o esclarecimento de dúvidas e promovendo a conscientização sobre a importância de buscar informações qualificadas sobre saúde.
 Exemplos de Personas
