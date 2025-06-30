@@ -39,6 +39,10 @@ class QuizController extends Controller
             'title' => 'required|string|max:255',
             'theme' => 'required|string|max:255',
             'difficulty' => 'required|string|max:50',
+            'questions' => 'required|array|min:1',
+            'questions.*.statement' => 'required|string',
+            'questions.*.options' => 'required|array|min:2',
+            'questions.*.correct_index' => 'required|integer|min:0',
         ]);
 
         $quiz = Quizz::create([
@@ -47,6 +51,20 @@ class QuizController extends Controller
             'theme' => $request->theme,
             'difficulty' => $request->difficulty,
         ]);
+
+        // Salva as perguntas
+        foreach ($request->questions as $question) {
+            $options = $question['options'];
+            $correctIndex = $question['correct_index'];
+            $correctAnswer = $options[$correctIndex];
+
+           $quizz = \App\Models\QuizzQuestion::create([
+                'quiz_id' => $quiz->id,
+                'exercise_statement' => $question['statement'],
+                'options' => $options,
+                'correct_answer' => $correctAnswer,
+            ]);
+        }
 
         return response()->json($quiz, 201);
     }

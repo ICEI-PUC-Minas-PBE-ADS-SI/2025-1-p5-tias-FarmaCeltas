@@ -15,17 +15,14 @@ class ChatComplement extends Request implements HasBody
 
     private string $question;
 
-    private array $existingQuestions;
-
     public function resolveEndpoint(): string
     {
-        return '/chat/completions';
+        return 'chat/completions'; // sem a barra inicial!
     }
 
-    public function setQuestionParameters(string $question, array $existingQuestions): self
+    public function setQuestionParameters(string $question): self
     {
-        $this->question = $question;
-        $this->existingQuestions = $existingQuestions;
+        $this->question = $question;;
 
         return $this;
     }
@@ -33,7 +30,7 @@ class ChatComplement extends Request implements HasBody
     protected function defaultBody(): array
     {
         return [
-            'model' => 'gpt-4o',
+            'model' => 'gpt-3.5-turbo',
             'messages' => [
                 [
                     'role' => 'system',
@@ -43,10 +40,7 @@ class ChatComplement extends Request implements HasBody
                 ],
                 [
                     'role' => 'user',
-                    'content' => "A pergunta feita pelo usuário é: \"{$this->question}\".
-                        As perguntas previamente cadastradas são: " . implode('; ', $this->existingQuestions) . ".
-                        Verifique se a pergunta já foi feita ou se é muito parecida com alguma existente.
-                        Se for semelhante, responda exatamente com o título da pergunta semelhante. Caso contrário, responda apenas com a palavra 'nenhuma'.",
+                    'content' => $this->question,
                 ],
             ],
             'temperature' => 0.3,

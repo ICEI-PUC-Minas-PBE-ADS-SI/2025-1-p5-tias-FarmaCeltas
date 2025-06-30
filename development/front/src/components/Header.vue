@@ -17,6 +17,7 @@
         </template>
 
         <template v-else>
+          <router-link to="/profile" class="nav-link">Perfil</router-link>
           <button @click="logout" class="nav-link">Sair</button>
         </template>
       </nav>
@@ -125,4 +126,5 @@ window.addEventListener('storage', checkAuth)
 .nav-link:last-child:hover {
   background: #00b300;
   color: #fff;
-}</style>
+}
+</style>

@@ -1,13 +1,13 @@
 <?php
 
-namespace src\OpenAI\Manager;
+namespace src\OpenAI\Http\Manager;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Saloon\Exceptions\Request\FatalRequestException;
 use Saloon\Exceptions\Request\Statuses\ForbiddenException;
 use Saloon\Exceptions\Request\Statuses\TooManyRequestsException;
-use src\OpenAI\OpenAIConnector;
+use src\OpenAI\Http\OpenAIConnector;
 use src\OpenAI\Http\Post\ChatComplement;
 use Throwable;
 
@@ -18,10 +18,10 @@ class ChatComplementsManager
         protected readonly ChatComplement $chatComplement,
     ) {}
 
-    public function sendChatComplements(string $question, array $existingQuestions): ?string
+    public function sendChatComplements(string $question,): ?string
     {
         try {
-            $this->chatComplement->setQuestionParameters($question, $existingQuestions);
+            $this->chatComplement->setQuestionParameters($question);
             $response = $this->connector->send($this->chatComplement)->json('choices.0.message.content');
 
             if (Str::contains('None', $response, true)) {

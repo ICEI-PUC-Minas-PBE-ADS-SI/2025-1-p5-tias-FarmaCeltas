@@ -65,4 +65,28 @@ class AuthController extends Controller
             'expires_in' => JWTAuth::factory()->getTTL() * 60,
         ]);
     }
+
+    public function stats(): \Illuminate\Http\JsonResponse
+    {
+        $user = auth()->user();
+
+        $quizzesCompleted = \App\Models\AnswerQuizz::where('user_id', $user->id)->count();
+
+        $answers = \App\Models\AnswerQuizz::where('user_id', $user->id)->get();
+        $averageScore = 0;
+        $totalQuestions = 0;
+        if ($answers->count() > 0) {
+            $totalQuestions = $answers->sum(function($a) { return $a->quiz->questions->count(); });
+            $totalAcertos = $answers->sum('score');
+            $averageScore = $totalQuestions > 0 ? round(($totalAcertos / $totalQuestions) * 100) : 0;
+        }
+
+        $postsRead = 0;
+
+        return response()->json([
+            'quizzesCompleted' => $quizzesCompleted,
+            'postsRead' => $postsRead,
+            'averageScore' => $averageScore,
+        ]);
+    }
 }
