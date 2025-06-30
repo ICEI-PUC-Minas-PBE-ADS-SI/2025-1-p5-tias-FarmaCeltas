@@ -124,14 +124,14 @@ Atualizado em: 08/06/2025
 
 Atualizado em: 29/06/2025
 
-| Responsável                          | Tarefa/Requisito                                  | Iniciado em    | Prazo      | Status   | Terminado em    |
-| :----                                |    :----                                          |      :----:    | :----:     | :----:   | :----:          |
-| Gabriel Assuncao Costa               | Conexão backend/banco de dados/frontend e deply   | 20/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
-| Gabriela Maria da Silva              | Frontend da Landing page e parte de API REST      | 22/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
-| Krycia Figueiredo Azevedo            | Preencher Tamplete, frontend da PostPage          | 21/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
-| Marcelo Henrique Passini Ferreira    | QuizzListPage e QuizzControler e slides           | 23/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
-| Rafael Bernardoni Gomes              | Frontend de Cadastro de Usuario                   | 24/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
-| Vinicius do Amaral Fonseca Filho     | Preenchimento do github, revisão de RNF e RF                         | 21/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Responsável                          | Tarefa/Requisito                                                                                   | Iniciado em    | Prazo      | Status   | Terminado em    |
+| :----                                |    :----                                                                                           |      :----:    | :----:     | :----:   | :----:          |
+| Gabriel Assuncao Costa               | Conexão backend/banco de dados/frontend e deply                                                    | 20/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Gabriela Maria da Silva              | Relatório para APC, validação da solução e desenvolvimento da criação de quizzes no backend.       | 22/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Krycia Figueiredo Azevedo            | revisão do github, preenchimento dos arquivos de teste, adicionar opção de criar quizz             | 21/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Marcelo Henrique Passini Ferreira    | Planejamento, slides e  melhora prompt do gpt                                                      | 23/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Rafael Bernardoni Gomes              | tela: adiciona perfil do usuário, preenchimento da conclusão e registro de teste software.         | 24/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Vinicius do Amaral Fonseca Filho     | Preenchimento do github, revisão de RNF e RF, adição de funcionalidades e testes de funcionalidade | 21/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
 
 
 
