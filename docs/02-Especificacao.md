@@ -137,5 +137,45 @@ Aqui, o administrador cadastra, atualiza e organiza quizzes, vídeos e materiais
 ### Processar e responder dúvidas com base em fontes científicas 
 O sistema de IA responde às dúvidas dos usuários com base em fontes confiáveis, garantindo a segurança e a qualidade da informação compartilhada.
 
+# Testando os Requisitos
 
+### Requisitos Funcionais
+RF-001 | Permitir cadastro de usuários  
+![image](https://github.com/user-attachments/assets/78a5c097-a9d4-438b-b5a2-77ef9fa04284)
 
+RF-002 | Permitir sistema de login 
+![image](https://github.com/user-attachments/assets/ec7547c7-bd69-41b6-924c-90e5886a1e44)
+
+RF-003 | Disponibilizar vídeos educativos   
+![image](https://github.com/user-attachments/assets/5a8bf855-557b-42df-99cc-6b2ceee4b1cb)
+
+RF-004 | Disponibilizar quizzes interativos para testar o aprendizado dos usuários
+![image](https://github.com/user-attachments/assets/ff9ece7f-4d55-47d7-9cb0-b7e0b9ca437f)
+
+RF-005 | Disponibilizar materiais escritos validados cientificamente
+![image](https://github.com/user-attachments/assets/0184dd2b-bd51-4703-af88-5fabb45b9fc0)
+
+RF-006 | Permitir que o usuário faça perguntas respondidas pelo ChatGPT 
+
+RF-007 | Permitir que administradores gerenciem quizzes e materiais educativos
+
+RF-008 | Armazenar e apresentar progresso individual dos usuários nos quizzes 
+![image](https://github.com/user-attachments/assets/4ec71939-9605-4c63-81ed-44cf07e7189d)
+
+### Requisitos Não Funcionais
+
+RNF 01| A aplicação será desenvolvida com PHP, Vue.JS, Javascript, HTML 5 e CSS.  |  OK
+
+RNF 02| O projeto deve seguir a Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018.   |  OK
+
+RNF 03| A aplicação fará uso do idioma oficial do Brasil, PT-BR.  |  OK
+
+RNF 04| A disponibilidade da aplicação será de 24x7.  |  OK
+
+RNF 05| O tempo de resposta da aplicação não deverá exceder 1 segundo.  |  OK
+
+RNF 06| Será utilizado o GitHub como plataforma de gerenciamento do desenvolvimento.  |  OK
+
+RNF 07| Deverá ser um sistema responsivo para se ajustar a qualquer dispositivo.  |  OK
+
+RNF 08| Deve dar suporte a aparelhos Android e iOS.  |  NÃO OK                                           
