@@ -49,6 +49,8 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 
 ###  Principais Telas
 
+Link para o figma : https://www.figma.com/proto/lnQulNTTF49h82e39bnEki/Untitled?node-id=0-1&t=lewFvxycc712q0qB-1
+
 Tela Sobre a empresa.
 > ![image](https://github.com/user-attachments/assets/208f25d4-cae3-4735-93b6-9bdd4b0d5925)
 
