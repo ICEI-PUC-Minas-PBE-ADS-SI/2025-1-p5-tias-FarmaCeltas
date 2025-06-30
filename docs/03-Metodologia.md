@@ -131,7 +131,7 @@ Atualizado em: 29/06/2025
 | Krycia Figueiredo Azevedo            | Preencher Tamplete, frontend da PostPage          | 21/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
 | Marcelo Henrique Passini Ferreira    | QuizzListPage e QuizzControler e slides           | 23/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
 | Rafael Bernardoni Gomes              | Frontend de Cadastro de Usuario                   | 24/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
-| Vinicius do Amaral Fonseca Filho     | Preenchimento do github                           | 21/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
+| Vinicius do Amaral Fonseca Filho     | Preenchimento do github, revisão de RNF e RF                         | 21/06/2025     | 29/06/2025 | ✔️       |29/06/2025      |
 
 
 
