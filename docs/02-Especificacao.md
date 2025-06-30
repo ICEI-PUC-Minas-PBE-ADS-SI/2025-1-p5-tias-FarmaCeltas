@@ -156,8 +156,11 @@ RF-005 | Disponibilizar materiais escritos validados cientificamente
 ![image](https://github.com/user-attachments/assets/0184dd2b-bd51-4703-af88-5fabb45b9fc0)
 
 RF-006 | Permitir que o usuário faça perguntas respondidas pelo ChatGPT 
+![image](https://github.com/user-attachments/assets/054d7699-80ae-4566-b4c9-8da7acf3bd8a)
 
 RF-007 | Permitir que administradores gerenciem quizzes e materiais educativos
+
+![image](https://github.com/user-attachments/assets/1b530c07-2e02-4d0a-ae73-8c40b173c491)
 
 RF-008 | Armazenar e apresentar progresso individual dos usuários nos quizzes 
 ![image](https://github.com/user-attachments/assets/4ec71939-9605-4c63-81ed-44cf07e7189d)
