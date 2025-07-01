@@ -19,7 +19,7 @@ Cenário 1: Você é uma pessoa que deseja encontrar informações sobre Ansieda
 Comentários dos usuários: Achei o site muito bom e intuitivo. Não tive dificuldades e acho que ficou bem intuitivo.
 
 
-Cenário 2: Você é uma pessoa que deseja comprar quer tirar uma dúvida sobre o paracetamol. Busque na IA do FarmaCeltas sobre o medicamento
+Cenário 2: Você é uma pessoa que deseja tirar uma dúvida sobre o paracetamol. Busque na IA do FarmaCeltas sobre o medicamento
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
