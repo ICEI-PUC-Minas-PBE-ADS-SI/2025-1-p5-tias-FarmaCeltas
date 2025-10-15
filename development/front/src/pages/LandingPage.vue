@@ -58,13 +58,11 @@ const fetchContent = async () => {
     loading.value = true
     error.value = null
 
-    // Fetch both posts and quizzes
     const [postsResponse, quizzesResponse] = await Promise.all([
       api.get('/posts'),
       api.get('/quizzes')
     ])
 
-    // Transform posts into card format
     const posts = postsResponse.data.data.map(post => ({
       id: post.id,
       title: post.title,
@@ -72,7 +70,6 @@ const fetchContent = async () => {
       contentType: 'post'
     }))
 
-    // Transform quizzes into card format
     const quizzes = quizzesResponse.data.data.map(quiz => ({
       id: quiz.id,
       title: quiz.title,
@@ -80,7 +77,6 @@ const fetchContent = async () => {
       contentType: 'quiz'
     }))
 
-    // Combine and sort by most recent (assuming IDs are sequential)
     contentItems.value = [...posts, ...quizzes].sort((a, b) => b.id - a.id).slice(0, 6)
   } catch (err) {
     console.error('Erro ao carregar conteúdo:', err)
@@ -89,7 +85,7 @@ const fetchContent = async () => {
     } else {
       error.value = 'Não foi possível carregar o conteúdo. Por favor, tente novamente mais tarde.'
     }
-    contentItems.value = [] // Clear any existing items
+    contentItems.value = [] 
   } finally {
     loading.value = false
   }
@@ -154,7 +150,7 @@ onMounted(() => {
 
 .banner-image {
   width: 80%;
-  max-width: 640px; /* ajuste gradual */
+  max-width: 640px;
   height: auto;
   display: block;
   margin: 0 auto;
