@@ -53,7 +53,7 @@ main {
   width: 100%;
   margin: 0;
   padding: 0;
-  min-height: calc(100vh - 120px); /* Ajuste este valor baseado na altura do seu header + footer */
+  min-height: calc(100vh - 120px);
   background-color: #d6f5d6;
 }
 
